@@ -23,5 +23,5 @@ let m = 3;
 let nums2 = [2, 5, 6];
 
 let n = 3;
-
-console.log(merge(nums1, m, nums2, n));
+console.log(find(m, nums1));
+// console.log(merge(nums1, m, nums2, n));
