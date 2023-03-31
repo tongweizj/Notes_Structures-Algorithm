@@ -14,7 +14,7 @@
   - [没有包含的内容](#没有包含的内容)
   - [日常计划](#日常计划)
   - [必备知识](#必备知识)
-  - [算法与数据结构](#算法与数据结构)
+  - [2. 算法与数据结构](#2-算法与数据结构)
     - [数据结构](#数据结构)
     - [基础算法](#基础算法)
       - [排序（Sorting）](#排序sorting)
@@ -24,10 +24,10 @@
     - [堆（Heap） / 优先级队列（Priority Queue） / 二叉堆（Binary Heap）](#堆heap--优先级队列priority-queue--二叉堆binary-heap)
     - [图（Graphs）](#图graphs)
     - [NP, NP-完全和近似算法](#np-np-完全和近似算法)
-  - [系统设计和架构](#系统设计和架构)
-  - [计算机基础知识](#计算机基础知识)
+  - [3. 系统设计和架构](#3-系统设计和架构)
+  - [4. 计算机基础知识](#4-计算机基础知识)
     - [测试](#测试)
-  - [面试](#面试)
+  - [5. 面试](#5-面试)
   - [你的简历](#你的简历)
   - [当你获得了梦想的职位](#当你获得了梦想的职位)
   - [Help](#help)
@@ -191,7 +191,7 @@ Amazon、Facebook、Google，以及 Microsoft。
     - [ ] [中央处理单元（视频）](https://youtu.be/FZGugFqdr60)
     - [ ] [指令和程序（视频）](https://youtu.be/zltgXvg6r3k)
 
-## 算法与数据结构
+## 2. 算法与数据结构
 
 - [ ] 算法复杂度 / Big-O / 渐进分析法
 
@@ -258,13 +258,13 @@ Amazon、Facebook、Google，以及 Microsoft。
 - [ ] 其他
 
 
-## 系统设计和架构
+## 3. 系统设计和架构
 
 - [ ] 面向对象编程
 - [ ] 设计模式
 - [ ] 系统设计
 
-## 计算机基础知识
+## 4. 计算机基础知识
 
 - [ ] 按位运算（Bitwise operations）
 - [ ] 组合（Combinatorics） (n 中选 k 个) & 概率（Probability）
@@ -292,7 +292,7 @@ Amazon、Facebook、Google，以及 Microsoft。
         - [ ] [测试之道](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] [如何编写测试](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-## 面试
+## 5. 面试
 
 - [ ] 技术面试
 - [ ] 行为面试
