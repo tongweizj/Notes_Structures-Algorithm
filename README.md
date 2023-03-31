@@ -184,12 +184,6 @@ Amazon、Facebook、Google，以及 Microsoft。
         - 这是一本简短的书，但是它将使你更好地使用 C 语言，并且如果你稍加练习，就会很快熟练。理解 C 可帮助你了解程序和内存的工作方式
         - 问题答案
 
-- [ ] **计算机是如何处理一段程序：**
-    - [ ] [CPU 是如何执行代码（视频）](https://www.youtube.com/watch?v=XM4lGflQFvA)
-    - [ ] [计算机如何计算（视频）](https://youtu.be/1I5ZMmrOfnA)
-    - [ ] [寄存器和内存（视频）](https://youtu.be/fpnE6UAfbtU)
-    - [ ] [中央处理单元（视频）](https://youtu.be/FZGugFqdr60)
-    - [ ] [指令和程序（视频）](https://youtu.be/zltgXvg6r3k)
 
 ## 2. 算法与数据结构
 
@@ -266,6 +260,7 @@ Amazon、Facebook、Google，以及 Microsoft。
 
 ## 4. 计算机基础知识
 
+- [ ] 计算机是如何处理一段程序
 - [ ] 按位运算（Bitwise operations）
 - [ ] 组合（Combinatorics） (n 中选 k 个) & 概率（Probability）
 - [ ] 缓存（Cache）
