@@ -1,64 +1,10 @@
 # Notes_data_structures_algorithm_design
 
-# 编程面试大学
-
-原先我为了成为一个软件工程师而建立这份简单的学习主题清单， 但这份清单随着时间的推移而膨胀成今天这样。在做完这份清单上的每个目标后，[我成为了 Amazon 的软件开发工程师](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 你或许不需要像我一样学习这么多。但是，让你成为一位称职工程师所需要的知识都在这里了。
-
-我每天自学8~12小时，这样持续了好几个月。这是我的故事：[为什么我为了 Google 面试而自学了8个月](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)。
-
-在这份清单内的主题会让你拥有足够的知识去面对几乎每家软件公司的技术面试，包括科技巨头：Amazon、Facebook、Google，以及 Microsoft。
-
-祝你好运!
-
-<div align="center">
-	<hr />
-    <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>成为赞助商</strong> 并支持编程大学！</a>
-    </p>
-    <p>
-        <strong>Special thanks to:</strong>
-    </p>
-    <div>
-        <a href="https://meetapro.com/?utm_source=ciusponsor">
-            <div>
-                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/meetapro.jpg" width="414" alt="Meetapro">
-            </div>
-            <div>
-                <sup>Feeling anxious about your upcoming interviews? Want to outdo Google's notoriously low 0.2% acceptance rate? Look no further than Meetapro! 
-                Our Airbnb-style setup connects you with expert interviewers from FAANG and other industry giants. Their personalized feedback and tips are pure gold, 
-                and they can double your chances of landing your dream job. Sign up for Meetapro today and take your career to the next level!</sup>
-            </div>
-        </a>
-    </div>
-    <hr />
-</div>
-
-## 这是？
-
-这是我为了从 web 开发者（自学、非计算机科学学位）蜕变至 Google 软件工程师所制定的计划，其内容历时数月。
-
-![白板上编程 ———— 来自 HBO 频道的剧集，“硅谷”](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
-
-这份清单适用于 **新手软件工程师**，或者想从软件/网站开发转向软件工程（需要计算机科学知识）的人员。如果你有多年的经验，并且声称拥有多年的软件工程经验，并且期待一次更艰难的面试。
-
-如果你具有多年的软件/网页开发经验，请注意，大型软件公司（例如 Google，Amazon，Facebook 和 Microsoft）将软件工程视为不同于软件/网页开发，并且它们需要计算机科学知识。
-
-如果你想成为可靠性工程师或运维工程师，请从可选列表（网络，安全）中学习更多。
-
----
-
 ## 目录
 
 - [Notes\_data\_structures\_algorithm\_design](#notes_data_structures_algorithm_design)
-- [编程面试大学](#编程面试大学)
-  - [这是？](#这是)
   - [目录](#目录)
-  - [为何要用到它？](#为何要用到它)
-  - [如何使用它](#如何使用它)
-    - [如果你不想使用 Git](#如果你不想使用-git)
-    - [如果你不介意 Git](#如果你不介意-git)
-  - [不要觉得自己不够聪明](#不要觉得自己不够聪明)
-  - [相关视频资源](#相关视频资源)
+  - [这是？](#这是)
   - [面试过程 \& 通用的面试准备](#面试过程--通用的面试准备)
   - [为你的面试选择一种语言](#为你的面试选择一种语言)
   - [书单](#书单)
@@ -98,6 +44,11 @@
   - [视频系列](#视频系列)
   - [计算机科学课程](#计算机科学课程)
   - [论文](#论文)
+  - [Help](#help)
+    - [为何要用到它？](#为何要用到它)
+    - [如何使用它](#如何使用它)
+    - [不要觉得自己不够聪明](#不要觉得自己不够聪明)
+    - [相关视频资源](#相关视频资源)
   - [LICENSE](#license)
 
 ---------------- 下面的内容是可选的 ----------------
@@ -147,67 +98,29 @@
 - [论文](#论文)
 
 ---
+原先我为了成为一个软件工程师而建立这份简单的学习主题清单， 但这份清单随着时间的推移而膨胀成今天这样。
+在做完这份清单上的每个目标后，[我成为了 Amazon 的软件开发工程师](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 你或许不需要像我一样学习这么多。
+但是，让你成为一位称职工程师所需要的知识都在这里了。
 
-## 为何要用到它？
+在这份清单内的主题会让你拥有足够的知识去面对几乎每家软件公司的技术面试，包括科技巨头：
+Amazon、Facebook、Google，以及 Microsoft。
 
-当我开始这个项目时，我不知道堆和栈的区别，不了解时间复杂度（Big-O）、树，或如何去遍历一个图。如果非要我去编写一个排序算法的话，我只能说我所写的肯定是很糟糕。一直以来，我所用的任何数据结构都是内建于编程语言当中。至于它们在背后是如何运作，对此我一概不清楚。此外，以前的我并不需要对内存进行管理，最多就只是在一个正在执行的进程抛出了“内存不足”的错误后，才会去找解决方法。在我的编程生涯中，虽然我有用过多维数组，也用过关联数组成千上万次，但我从来没有自己实现过数据结构。
+祝你好运!
 
-这是一个漫长的计划，以至于花费了我数月的时间。若你早已熟悉大部分的知识，那么也许能节省大量的时间。
+## 这是？
 
-## 如何使用它
+这是我为了从 web 开发者（自学、非计算机科学学位）蜕变至 Google 软件工程师所制定的计划，其内容历时数月。
 
-下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
+![白板上编程 ———— 来自 HBO 频道的剧集，“硅谷”](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-在学习过程中，我使用 GitHub 特殊语法的 Markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
+这份清单适用于 **新手软件工程师**，或者想从软件/网站开发转向软件工程（需要计算机科学知识）的人员。
+如果你有多年的经验，并且声称拥有多年的软件工程经验，并且期待一次更艰难的面试。
 
-- [更多关于 Github-flavored Markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+如果你具有多年的软件/网页开发经验，请注意，大型软件公司（例如 Google，Amazon，Facebook 和 Microsoft）将软件工程视为不同于软件/网页开发，并且它们需要计算机科学知识。
 
-### 如果你不想使用 Git
+如果你想成为可靠性工程师或运维工程师，请从可选列表（网络，安全）中学习更多。
 
-在该页面上，单击顶部附近的 Code 按钮，然后单击“Download ZIP”。解压文件，就可以使用文本文件了。
-
-如果你打开一个代码编辑器，你会看到所有格式都很好。
-
-![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
-
-### 如果你不介意 Git
-
-1. 通过单击 Fork 按钮来 fork GitHub 仓库：`https://github.com/jwasham/coding-interview-university`
-
-    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
-
-2. 克隆项目到本地：
-
-    ```sh
-    git clone git@github.com:<your_github_username>/coding-interview-university.git
-    cd coding-interview-university
-    git checkout -b progress
-    git remote add jwasham https://github.com/jwasham/coding-interview-university
-    git fetch --all
-    ```
-
-3. 在你完成了一些修改后，在框框中打 x：
-
-    ```sh
-    git add .
-    git commit -m "Marked x"
-    git rebase jwasham/main
-    git push --set-upstream origin progress
-    git push --force
-    ```
-
-## 不要觉得自己不够聪明
-
-- 大多数成功的软件工程师都非常聪明，但他们都有一种觉得自己不够聪明的不安全感。
-- 下面的视频可以帮助你克服这种不安全感：
-    - [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
-    - [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
-
-## 相关视频资源
-
-部分视频只能通过在 Coursera 或者 Edx 课程上注册登录才能观看。这些视频被称为网络公开课程（MOOC）。有时候某些课程需要等待好几个月才能获取，这期间你无法观看这些课程的影片。
-
-很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
+---
 
 ## 面试过程 & 通用的面试准备
 
@@ -1900,6 +1813,41 @@
 - [2015: TensorFlow: 异构分布式系统上的大规模机器学习](http://download.tensorflow.org/paper/whitepaper2015.pdf )
 - [2015: 开发者应该如何搜索代码：用例学习](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
 - [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
+
+
+## Help
+
+### 为何要用到它？
+
+当我开始这个项目时，我不知道堆和栈的区别，不了解时间复杂度（Big-O）、树，或如何去遍历一个图。如果非要我去编写一个排序算法的话，我只能说我所写的肯定是很糟糕。一直以来，我所用的任何数据结构都是内建于编程语言当中。至于它们在背后是如何运作，对此我一概不清楚。此外，以前的我并不需要对内存进行管理，最多就只是在一个正在执行的进程抛出了“内存不足”的错误后，才会去找解决方法。在我的编程生涯中，虽然我有用过多维数组，也用过关联数组成千上万次，但我从来没有自己实现过数据结构。
+
+这是一个漫长的计划，以至于花费了我数月的时间。若你早已熟悉大部分的知识，那么也许能节省大量的时间。
+
+### 如何使用它
+
+下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
+
+在学习过程中，我使用 GitHub 特殊语法的 Markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
+
+- [更多关于 Github-flavored Markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+
+
+
+### 不要觉得自己不够聪明
+
+- 大多数成功的软件工程师都非常聪明，但他们都有一种觉得自己不够聪明的不安全感。
+- 下面的视频可以帮助你克服这种不安全感：
+    - [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
+    - [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+
+### 相关视频资源
+
+部分视频只能通过在 Coursera 或者 Edx 课程上注册登录才能观看。
+这些视频被称为网络公开课程（MOOC）。
+
+有时候某些课程需要等待好几个月才能获取，这期间你无法观看这些课程的影片。
+很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。
+此外，一些大学的讲座视频也是我所青睐的。
 
 
 ## LICENSE
