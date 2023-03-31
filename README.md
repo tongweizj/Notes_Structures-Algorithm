@@ -49,6 +49,7 @@
     - [如何使用它](#如何使用它)
     - [不要觉得自己不够聪明](#不要觉得自己不够聪明)
     - [相关视频资源](#相关视频资源)
+  - [其他资源](#其他资源)
   - [LICENSE](#license)
 
 ---------------- 下面的内容是可选的 ----------------
@@ -1849,7 +1850,9 @@ Amazon、Facebook、Google，以及 Microsoft。
 很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。
 此外，一些大学的讲座视频也是我所青睐的。
 
+## 其他资源
 
+ - [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
 ## LICENSE
 
 [CC-BY-SA-4.0](https://github.com/jwasham/coding-interview-university/blob/main/LICENSE.txt)
