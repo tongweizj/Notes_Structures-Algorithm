@@ -5,15 +5,7 @@
 - [Notes\_data\_structures\_algorithm\_design](#notes_data_structures_algorithm_design)
   - [目录](#目录)
   - [这是？](#这是)
-  - [面试过程 \& 通用的面试准备](#面试过程--通用的面试准备)
   - [为你的面试选择一种语言](#为你的面试选择一种语言)
-  - [书单](#书单)
-    - [面试准备](#面试准备)
-    - [如果你有额外的时间：](#如果你有额外的时间)
-    - [编程语言精选](#编程语言精选)
-    - [C++](#c)
-    - [Java](#java)
-    - [Python](#python)
   - [在你开始之前](#在你开始之前)
     - [1. 你不可能把所有的东西都记住](#1-你不可能把所有的东西都记住)
     - [2. 使用抽认卡](#2-使用抽认卡)
@@ -72,31 +64,6 @@ Amazon、Facebook、Google，以及 Microsoft。
 
 ---
 
-## 面试过程 & 通用的面试准备
-
-- [ ] [ABC：不要停止编程（Always Be Coding）](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-- [ ] [白板编程（Whiteboarding）](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ] [揭秘技术招聘](https://www.youtube.com/watch?v=N233T0epWTs)
-- [ ] 如何在科技四强企业中获得一份工作：
-    - [ ] [“如何在科技四强企业中获得一份工作 —— Amazon、Facebook、Google 和 Microsoft”（视频）](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-- [ ] 解密开发类面试第一集：
-    - [ ] [Gayle L McDowell —— 解密开发类面试（视频）](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-    - [ ] [解密开发类面试 —— 作者 Gayle Laakmann McDowell（视频）](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-- [ ] 解密 Facebook 编码面试：
-    - [方法](https://www.youtube.com/watch?v=wCl9kvQGHPI)
-    - [问题演练](https://www.youtube.com/watch?v=4UWDyJq8jZg)
-- [ ] 准备课程：
-    - [ ] [软件工程师面试发布（收费课程）](https://www.udemy.com/software-engineer-interview-unleashed)：
-        - 从前 Google 面试官身上学习如何准备自己，让自己能够应付软件工程师的面试。
-    - [ ] [Python 数据结构，算法和面试（收费课程）](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/)：
-        - Python 面试准备课程，内容涉及数据结构，算法，模拟面试等。
-    - [ ] [Python 的数据结构和算法简介（Udacity 免费课程）](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513)：
-        - 免费的 Python 数据结构和算法课程。
-    - [ ] [数据结构和算法纳米学位！（Udacity 收费纳米学位）](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)：
-        - 获得超过100种数据结构和算法练习以及指导的动手练习，专门导师帮助你在面试和职场中做好准备。
-    - [ ] [探究行为面试（Educative 免费课程）](https://www.educative.io/courses/grokking-the-behavioral-interview)：
-        - 很多时候，不是你的技术能力会阻碍你获得理想的工作，而是你在行为面试中的表现。
-
 ## 为你的面试选择一种语言
 
 你可以在编程这一环节，使用一种自己用起来较为舒适的语言去完成编程，但对于大公司，你只有三种固定的选择：
@@ -122,74 +89,6 @@ Amazon、Facebook、Google，以及 Microsoft。
 [在此查看相关语言的资源](../programming-language-resources.md)
 
 由于我正在学习C、C++ 和 Python，因此在下面你会看到部分关于它们的学习资料。相关书籍请看文章的底部。
-
-## 书单
-
-为了节省你的时间，以下是比我使用过的更缩减的书单。
-
-### 面试准备
-
-- [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - 附有 C++ 和 Java 解答
-    - 这是在练习 Cracking the Coding Interview 之前一个很好的热身
-    - 不太困难，大多数问题可能比你在面试中看到的要容易（根据我的阅读）
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - 附有 Java 答案
-
-### 如果你有额外的时间：
-
-选择以下之一：
-
-- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [ ] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
-- [ ] Elements of Programming Interviews (Java version)
-    - [书](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
-    - [配套项目──书中每个问题的方法和测试用例](https://github.com/gardncl/elements-of-programming-interviews)
-
-### 编程语言精选
-
-**你需要选择面试语言（请参见上文）。**
-
-这是我按语言给出的建议。我没有所有语言的资源，欢迎贡献。
-
-如果你通读其中之一，你应该具备了开始解决编程问题所需的所有数据结构和算法知识。除非你需要复习，否则**你可以跳过此项目中的所有视频讲座**。
-
-[额外编程语言的精选资源](https://github.com/jwasham/coding-interview-university/blob/main/programming-language-resources.md)
-
-### C++
-
-我没有读过这两本书，但是它们颇受好评，作者是 Sedgewick，他非常厉害。
-
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
-- [ ] [Open Data Structures in C++](https://opendatastructures.org/ods-cpp.pdf)
-    - 丰富而详细的数据结构和算法集合
-    - 非常适合初学者
-
-如果你有更好的 C++ 书籍，请告诉我。我正在搜集全面的资源。
-
-### Java
-
-- [ ] [算法（Sedgewick 和 Wayne）](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - 包含课程内容（和Sedgewick！）的视频
-        - [第一部分](https://www.coursera.org/learn/algorithms-part1)
-        - [第二部分](https://www.coursera.org/learn/algorithms-part2)
-
-或者：
-
-- [ ] [Java 数据结构和算法](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - 作者：Goodrich、Tamassia、Goldwasser
-    - 用作 UC Berkeley 的 CS 入门课程的可选教材
-    - 请参阅下面有关 Python 版本的我的读书报告，这本书涵盖了相同的主题
-
-### Python
-
-- [ ] [Python数据结构和算法](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - 作者：Goodrich、Tamassia、Goldwasser
-    - 我非常喜爱这本书，它包含了所有东西
-    - 很 Python 的代码
-    - 我的读书报告：[startupnextdoor.com/book-report-data-structures-and-algorithms-in-python](https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/)
-- [ ] [Open Data Structures in Python](https://opendatastructures.org/ods-python.pdf)
 
 ## 在你开始之前
 
