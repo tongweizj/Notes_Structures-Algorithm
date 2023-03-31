@@ -24,8 +24,8 @@
     - [堆（Heap） / 优先级队列（Priority Queue） / 二叉堆（Binary Heap）](#堆heap--优先级队列priority-queue--二叉堆binary-heap)
     - [图（Graphs）](#图graphs)
     - [NP, NP-完全和近似算法](#np-np-完全和近似算法)
-    - [系统设计和架构](#系统设计和架构)
-    - [计算机基础知识](#计算机基础知识)
+  - [系统设计和架构](#系统设计和架构)
+  - [计算机基础知识](#计算机基础知识)
     - [测试](#测试)
   - [面试](#面试)
   - [你的简历](#你的简历)
@@ -258,13 +258,13 @@ Amazon、Facebook、Google，以及 Microsoft。
 - [ ] 其他
 
 
-### 系统设计和架构
+## 系统设计和架构
 
 - [ ] 面向对象编程
 - [ ] 设计模式
 - [ ] 系统设计
 
-### 计算机基础知识
+## 计算机基础知识
 
 - [ ] 按位运算（Bitwise operations）
 - [ ] 组合（Combinatorics） (n 中选 k 个) & 概率（Probability）
@@ -275,7 +275,6 @@ Amazon、Facebook、Google，以及 Microsoft。
 - [ ] 字节序（Endianness）
 - [ ] 网络（视频）
 - [ ] 调度
-
 
 ### 测试
     - 涵盖了:
@@ -293,7 +292,6 @@ Amazon、Facebook、Google，以及 Microsoft。
         - [ ] [测试之道](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] [如何编写测试](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-
 ## 面试
 
 - [ ] 技术面试
@@ -303,7 +301,6 @@ Amazon、Facebook、Google，以及 Microsoft。
 
 - 请参阅“破解编码面试”和“编程面试的背面”中的建立准备项。
 
-
 ## 当你获得了梦想的职位
 
 恭喜你！
@@ -311,8 +308,6 @@ Amazon、Facebook、Google，以及 Microsoft。
 继续学习。
 
 活到老，学到老。
-
-
 
 ## Help
 
