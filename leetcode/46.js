@@ -20,7 +20,9 @@ var permute = function (letters) {
 function dfs(letters, path, used, result) {
   // console.log("dfs path:", path, "used", used, "res:", result);
 
-  // // 退出递归的出口
+  // 判断是否走到 tree 的叶子,
+  // 叶子有两种可能: 完成任务, 走不通的可能性
+  // 走到了就退出递归
   // if 满足结束条件:
   //     result.add(路径)
   //     return
@@ -31,7 +33,8 @@ function dfs(letters, path, used, result) {
     return;
   }
 
-  // 具体的行动
+  // 遍历: 在 tree 里,往下走一层
+  // 通过反复调用自己(递归)方法,遍历整个 tree
   // for 选择 in 选择列表:
   //     做选择
   //     backtrack(路径, 选择列表) // 递归运转的入口
