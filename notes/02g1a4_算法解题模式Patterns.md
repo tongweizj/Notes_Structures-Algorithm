@@ -1,0 +1,25 @@
+
+- Two Pointers 双指针
+- Fast and Slow Pointers 快慢指针
+- Sliding Window  滑动窗口
+- Merge Intervals
+- In-place Reversal of a Linked List 链表原地反转
+- Two Heaps 双堆
+- K-way merge 
+- Top K Elements
+- Modified Binary Search 改进的二分搜索
+- Subsets 子集
+- Greedy Techniques  贪心技巧
+- Backtracking  回溯
+- Dynamic Programming 动态规划
+- Cyclic Sort 循环排序
+- Topological Sort  拓扑排序
+- Stacks 堆栈
+- Tree Depth First Search 树 深度优先搜索
+- Tree Breadth First Search  树 广度优先搜索
+- Trie
+- Hash Maps
+- Knowing What to Track
+- Union find
+- Custom Data Structures
+- Bitwise Manipulation
