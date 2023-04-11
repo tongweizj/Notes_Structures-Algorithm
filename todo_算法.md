@@ -1,130 +1,7 @@
-## 1. 打基础
-
-### 目标
-
-1. 补齐算法的基本知识
-2. 刷满150道左右（medium一半以上）
-
-### 1) 刷题列表
-
-打基础，刷了三个很基础的列表
-
-先做easy 和medium
-
-
-
-
-
-### 2) 做题笔记
-
-笔记内容: 
-
-- 题目本身
-  - 单词/概念
-  - 知识点
-- 解题
-  - 一共有几种解法,
-  - 每种解法
-    - 思路
-    - 使用的数据结构
-    - 时空复杂度 
-  - 最优解
-
-
-
-## 2. 复习和回顾
-
-### 目标
-
-- 大量反复复习，之前做过的题，
-
-- 加深理解、强化记忆
-- 清空下面2个list
-
-
-
-### 费曼复习
-
-1. 打开一道题
-
-   1. 首先默想，我能想到的解题思路
-
-   2. 自我判断，能做出来哪些解法
-
-   3. 快速判断时空复杂度
-
-
-
-
-### 补漏题集
-
-- list1: 之前做过，但现在无法独立做出的题
-
-  - 完全做不出
-
-  - 做的过程，需要看之前的笔记，来提醒。 
-
-- list2: 无法最优解的题 
-
-
-
-### 量
-
-我这个阶段，基本上每天
-
-- medium，5-8道
-- easy，5道上下 
-
-​		easy我一般都是快速过掉, 除非是那种很tricky或者很经典的easy题我会用1的步骤去过
-
-
-
-
-
-## 3. 突破和实战
-
-### 目标
-
-- 按照分类做经典hard 题
-- 开始面试
-
-
-
-拿到新题，立刻有正确的思路: 
-
-- 应该用什么算法+数据结构
-
-  基本上跟官方解是一致的 
-
-  
-
-复习旧题的时候
-- 直接讲出一共几种算法
-
-- 哪一种是最优解
-
-- 时空复杂度
-
-- 并且实现
-
-
-
-### 模拟面试
-
-1. 用英语口述我的思路
-2. 开始做题 
-   - 并且一边做，一边讲解当前代码的作用和为什么这么做 
-
-
-3. 跑test case和debug
-   1. 要分析哪里出的错，要怎么处理
-
-4. 最后讲时空复杂度 
-
 ## TODO
 
 
-### 算法复杂度 / Big-O / 渐进分析法
+## 1. 算法复杂度 / Big-O / 渐进分析法
 
 - 并不需要实现
 - 这里有很多视频，看到你真正了解它为止。你随时可以回来复习。
@@ -149,10 +26,15 @@
 - [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
 
 
-### 数据结构
+## 2. 数据结构
 
+### 字符串搜索和操作
 
-#### 字符串搜索和操作
+#### 字符串处理算法
+
+1. 字符串匹配
+2. 字符串哈希
+
     - [ ] [Sedgewick──后缀数组（Suffix Arrays）（视频）](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick──子字符串搜寻（视频）](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. 子字符串搜寻导论](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
@@ -164,7 +46,7 @@
 
 如果你需要有关此主题的更多详细信息，请参阅“[一些主题的额外内容](#一些主题的额外内容)”中的“字符串匹配”部分。
 
-#### 数组（Arrays）
+### 数组（Arrays）
     - 实现一个可自动调整大小的动态数组。
     - [ ] 介绍：
         - [数组（视频）](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
@@ -199,7 +81,7 @@
 
 
 
-#### 链表（Linked Lists）
+### 链表（Linked Lists）
     - [ ] 介绍：
         - [ ] [单向链表（视频）](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B —— 链表（一）（视频）](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
@@ -232,13 +114,12 @@
         - 并不需要实现
 
 
-
-#### 堆栈（Stack）
+### 堆栈（Stack）
     - [ ] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] 可以不实现，因为使用数组来实现并不重要
 
-#### 队列（Queue）
+### 队列（Queue）
     - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
@@ -258,34 +139,34 @@
         - empty：O(1)（链表和数组）
 
 
-#### 哈希表（Hash table）
-    - [ ] 视频：
-        - [ ] [链式哈希表（视频）](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-        - [ ] [Table Doubling 和 Karp-Rabin（视频）](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [Open Addressing 和密码型哈希（Cryptographic Hashing）（视频）](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [PyCon 2010：The Mighty Dictionary（视频）](https://www.youtube.com/watch?v=C4Kc8xzcA68)
-        - [ ] [（进阶）随机取样（Randomization）：全域哈希（Universal Hashing）& 完美哈希（Perfect Hashing）（视频）](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
-        - [ ] [（进阶）完美哈希（Perfect hashing）（视频）](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
-        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
+### 哈希表（Hash table）
+- [ ] 视频：
+	- [ ] [链式哈希表（视频）](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+	- [ ] [Table Doubling 和 Karp-Rabin（视频）](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+	- [ ] [Open Addressing 和密码型哈希（Cryptographic Hashing）（视频）](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+	- [ ] [PyCon 2010：The Mighty Dictionary（视频）](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+	- [ ] [（进阶）随机取样（Randomization）：全域哈希（Universal Hashing）& 完美哈希（Perfect Hashing）（视频）](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+	- [ ] [（进阶）完美哈希（Perfect hashing）（视频）](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+	- [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
-    - [ ] 在线课程：
-        - [ ] [基本哈希表（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-        - [ ] [数据结构（视频）](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [电话薄问题（Phone Book Problem）（视频）](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
-        - [ ] 分布式哈希表：
-            - [Dropbox 中的瞬时上传及存储优化（视频）](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - [分布式哈希表（视频）](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+- [ ] 在线课程：
+	- [ ] [基本哈希表（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+	- [ ] [数据结构（视频）](https://www.coursera.org/learn/data-structures/home/week/3)
+	- [ ] [电话薄问题（Phone Book Problem）（视频）](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+	- [ ] 分布式哈希表：
+		- [Dropbox 中的瞬时上传及存储优化（视频）](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+		- [分布式哈希表（视频）](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] 使用线性探测的数组去实现
-        - hash(k, m) —— m 是哈希表的大小
-        - add(key, value) —— 如果 key 已存在则更新值
-        - exists(key)
-        - get(key)
-        - remove(key)
+- [ ] 使用线性探测的数组去实现
+	- hash(k, m) —— m 是哈希表的大小
+	- add(key, value) —— 如果 key 已存在则更新值
+	- exists(key)
+	- get(key)
+	- remove(key)
 
 
 
-#### 字典树（Tries）
+### 字典树（Tries）
 
     - 需要注意的是，字典树各式各样。有些有前缀，而有些则没有。有些使用字符串而不使用比特位来追踪路径。
     - 阅读代码，但不实现。
@@ -305,9 +186,58 @@
 
 
 
-### 算法
+## 3. 算法
+
+### 1) 算法思维
+
+#### 贪心
+
+需补
+
+#### 使用递归和循环解决问题
+
+1. 数组中的双指针、滑动窗口思想
+2. 利用 Map 和 Set 处理查找表问题
+3. 利用递归和迭代法解决二叉树问题
+4. 递归函数（阶乘、斐波那契数列）
+
+#### 递归（Recursion）
+
+    - [ ] Stanford 大学关于递归 & 回溯的课程:
+        - [ ] [课程 8 | 抽象编程（视频）](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
+        - [ ] [课程 9 | 抽象编程（视频）](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
+        - [ ] [课程 10 | 抽象编程（视频）](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
+        - [ ] [课程 11 | 抽象编程（视频）](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
+    - 什么时候适合使用
+    - 尾递归会更好么?
+        - [ ] [什么是尾递归以及为什么它如此糟糕?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+        - [ ] [尾递归（视频）](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+
+#### 哈希算法
+
+### 枚举
+
+需补
+
+
+
+### 分治
+
+需补
+
+
+
+### 2) 搜索算法
+
+需补
+
+1. 二分搜索
+2. 广搜 BFS
+3. 深搜 DFS
+4. 回溯算法
 
 #### 二分查找（Binary search）
+
     - [ ] [二分查找（视频）](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [二分查找（视频）](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [详情](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
@@ -316,9 +246,9 @@
         - 二分查找（在一个已排序好的整型数组中查找）
         - 迭代式二分查找
 
-#### 排序（Sorting）
+### 3) 排序（Sorting）
 
-##### 排序基础知识
+#### 排序基础知识
 
 - [ ] 笔记:
     - 实现各种排序，知道每种排序的最坏、最好和平均的复杂度分别是什么场景:
@@ -334,7 +264,7 @@
 
 - 关于堆排序，请查看前文堆的数据结构部分。堆排序很强大，不过是非稳定排序。
 
-##### 归并排序
+#### 归并排序
 
 - [ ] [归并排序（视频）](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
 - [ ] [Sedgewick ── 归并排序（5个视频）](https://www.coursera.org/learn/algorithms-part1/home/week/3)
@@ -350,7 +280,7 @@
     - [ ] [对原数组直接排序（C++）](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
 
 
-##### 快速排序
+#### 快速排序
 
 - [ ] [Sedgewick ── 快速排序（4个视频）](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] 1. 快速排序
@@ -366,7 +296,7 @@
     - [ ] [实现（C语言）](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [实现（Python语言）](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-##### 其他排序法
+#### 其他排序法
 
 - [ ] [冒泡排序（视频）](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
 - [ ] [冒泡排序分析（视频）](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
@@ -376,7 +306,7 @@
 
 - [ ] [选择排序（视频）](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-##### 排序复习视频
+#### 排序复习视频
 
 - [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
     - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
@@ -386,7 +316,7 @@
     - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
     - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
 
-##### 排序总结
+#### 排序总结
 
 - [ ] 实现:
     - [ ] 归并：平均和最差情况的时间复杂度为 O(n log n)。
@@ -396,21 +326,9 @@
 
 总结一下，这是[15种排序算法](https://www.youtube.com/watch?v=kPRA0W1kECg)的可视化表示。如果你需要有关此主题的更多详细信息，请参阅“[一些主题的额外内容](#一些主题的额外内容)”中的“排序”部分。
 
+### 4) 动态规划 Dynamic Programming
 
-#### 递归（Recursion）
-
-    - [ ] Stanford 大学关于递归 & 回溯的课程:
-        - [ ] [课程 8 | 抽象编程（视频）](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
-        - [ ] [课程 9 | 抽象编程（视频）](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
-        - [ ] [课程 10 | 抽象编程（视频）](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
-        - [ ] [课程 11 | 抽象编程（视频）](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - 什么时候适合使用
-    - 尾递归会更好么?
-        - [ ] [什么是尾递归以及为什么它如此糟糕?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [尾递归（视频）](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
-
-
-#### 动态规划（Dynamic Programming）
+常用于解决复杂的最优化问题。
 
     - 在你的面试中或许没有任何动态规划的问题，但能够知道一个题目可以使用动态规划来解决是很重要的。
     - 这一部分会有点困难，每个可以用动态规划解决的问题都必须先定义出递推关系，要推导出来可能会有点棘手。
@@ -435,6 +353,10 @@
         - [ ] [DP vs 递归实现（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
         - [ ] [全局成对序列排列（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
         - [ ] [本地成对序列排列（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+
+
+
+## 4. 算法和数据结构知识单元
 
 ### 树（Trees）
 
@@ -553,6 +475,11 @@
 
 #### 图相关算法
 
+1. 最短路径、
+2. 最小生成树算法。
+
+
+
 - MIT（视频）：
     - [广度优先搜索](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
     - [深度优先搜索](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
@@ -603,7 +530,7 @@
         - [ ] [CSE373 2012 - 课程 24 - NP-完全性证明（视频）](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
         - [ ] [CSE373 2012 - 课程 25 - NP-完全性挑战（视频）](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
-#### 其他
+## 其他
     - [ ] [复杂度: P, NP, NP-完全性, 规约（视频）](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
     - [ ] [复杂度: 近视算法 Algorithms（视频）](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
     - [ ] [复杂度: 固定参数算法（视频）](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)

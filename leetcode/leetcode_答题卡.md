@@ -27,11 +27,11 @@
 | xx | | | | |
 
 
+## 数据结构
 
+### Arrays
 
-## Arrays
-
-### Easy
+#### Easy
 - Validate Subsequence
 - Two Number Sum
 - Sorted Squared Array
@@ -39,9 +39,9 @@
 - Non-Constructible Change
 
 
-## Strings
+### Strings
 
-### Easy
+#### Easy
 - Palindrome Check
 - Caesar Cipher Encryptor
 - Run-Length Encoding
@@ -51,50 +51,73 @@
 
 
 
-## Binary Search trees
+### Binary Search trees 二叉搜索树
 
-### Easy
+#### Easy
 - Find Closest Value In BST
 
-## Binary Trees
+### Binary Trees
 
-### Easy
+#### Easy
 - Branch Sums
 - Node Depths
 
-## Graphs
+### Graphs
 
-### Easy
+#### Easy
 - Depth-first Search
 
-## Greedy Algorithms
+### Linked Lists
 
-### Easy
+#### Easy
+- Remove Duplicates From Linked List
+
+## 算法
+### Greedy Algorithms
+
+#### Easy
 - Minimum Waiting Time
 - Class Photos
 - Tandem Bicycle
 
-## Linked Lists
 
-### Easy
-- Remove Duplicates From Linked List
+### Recursion 递归
 
-## Recursion
-
-### Easy
+#### Easy
 - Nth Fibonacci
 - Product Sum
 
-## Searching
+### Searching
 
-### Easy
+#### Easy
 - Binary Search
 - Find Three Largest Numbers
 
-## Sorting
+#### BFS
+| no | title | level |state |
+| -- | -- | -- | -- |
+| [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/) |Minimum Depth of Binary Tree |easy | done| 
 
-### Easy
+### Sorting
+
+#### Easy
 - Bubble Sort
 - Insertion Sort
 - Selection Sort
 
+
+## 列表模版
+
+| no | title | level |state |
+| -- | -- | -- | -- |
+| [题目编号](http://原题URL) |题名字 |难易度 | done| 
+
+state
+- 0
+  做过，但无法独立做出的题
+- 1/2
+  做的过程，需要看之前的笔记，来提醒。 
+- 3/4
+  可以解题，但不是最优解
+- done
+  完成
