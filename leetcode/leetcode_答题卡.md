@@ -87,29 +87,89 @@
 - Nth Fibonacci
 - Product Sum
 
-### Searching
+### 1) Searching
 
 #### Easy
 - Binary Search
 - Find Three Largest Numbers
 
+#### DFS
+| no | title | level |state |
+| -- | -- | -- | -- |
+| [695](https://leetcode.com/problems/max-area-of-island/) |Max Area of Island  |Easy | done| 
+|[547](https://leetcode.com/problems/number-of-provinces/)|Friend Circles |Medium |
+| [417](https://leetcode.com/problems/pacific-atlantic-water-flow/) | Pacific AtlanticWater Flow |Medium | | 
+
+
+#### backtrackin
+| no | title | level |state |
+| -- | -- | -- | -- |
+| [46](https://leetcode.com/problems/permutations/) | Permutations  |Medium | done| 
+| [77](https://leetcode.com/problems/combinations/) | Combinations  |Medium | done| 
+| [79](https://leetcode.com/problems/word-search/) | Word Search  |Medium | done| 
+| [51](https://leetcode.com/problems/n-queens/) | N-Queens  |Hard | | 
+
 #### BFS
 | no | title | level |state |
 | -- | -- | -- | -- |
 | [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/) |Minimum Depth of Binary Tree |easy | done| 
+| [934](https://leetcode.com/problems/shortest-bridge/) |Shortest Bridge |Medium | | 
+| [126](https://leetcode.com/problems/word-ladder-ii/) |Word Ladder II  |Hard | | 
 
-### Sorting
+
+
+基础难度
+
+130. Surrounded Regions (Medium)
+
+先从最外侧填充，然后再考虑里侧。
+
+257. Binary Tree Paths (Easy)
+
+输出二叉树中所有从根到叶子的路径，回溯法使用与否有什么区别？
+
+进阶难度
+
+47. Permutations II (Medium)
+
+排列题的follow-up，如何处理重复元素？
+
+40. Combination Sum II (Medium)
+
+组合题的follow-up，如何处理重复元素？
+
+37. Sudoku Solver (Hard)
+
+十分经典的数独题，可以利用回溯法求解。事实上对于数独类型的题，有很多进阶的搜索方
+
+法和剪枝策略可以提高速度，如启发式搜索。
+
+310. Minimum Height Trees (Medium)
+
+如何将这道题转为搜索类型题？是使用深度优先还是广度优先呢？
+
+
+### 2) Sorting
 
 #### Easy
 - Bubble Sort
 - Insertion Sort
 - Selection Sort
 
+### 3) 动态规划
+
+| no | title | level |state |
+| -- | -- | -- | -- |
+| [322](https://leetcode.com/problems/coin-change/) |Coin Change |难易度 | | 
+| [509](https://leetcode.com/problems/fibonacci-number/) |Fibonacci Number |难易度 | done| 
+
 
 ## 列表模版
 
 | no | title | level |state |
 | -- | -- | -- | -- |
+| [题目编号](http://原题URL) |题名字 |难易度 | done| 
+
 | [题目编号](http://原题URL) |题名字 |难易度 | done| 
 
 state

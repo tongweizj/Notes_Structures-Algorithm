@@ -190,162 +190,35 @@
 
 ### 1) 算法思维
 
-#### 贪心
 
-需补
-
-#### 使用递归和循环解决问题
-
-1. 数组中的双指针、滑动窗口思想
-2. 利用 Map 和 Set 处理查找表问题
-3. 利用递归和迭代法解决二叉树问题
-4. 递归函数（阶乘、斐波那契数列）
-
-#### 递归（Recursion）
-
-    - [ ] Stanford 大学关于递归 & 回溯的课程:
-        - [ ] [课程 8 | 抽象编程（视频）](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
-        - [ ] [课程 9 | 抽象编程（视频）](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
-        - [ ] [课程 10 | 抽象编程（视频）](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
-        - [ ] [课程 11 | 抽象编程（视频）](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - 什么时候适合使用
-    - 尾递归会更好么?
-        - [ ] [什么是尾递归以及为什么它如此糟糕?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [尾递归（视频）](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
-
-#### 哈希算法
-
-### 枚举
-
-需补
+### 3) 搜索算法
 
 
 
-### 分治
-
-需补
 
 
-
-### 2) 搜索算法
-
-需补
-
-1. 二分搜索
-2. 广搜 BFS
-3. 深搜 DFS
-4. 回溯算法
-
-#### 二分查找（Binary search）
-
-    - [ ] [二分查找（视频）](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [二分查找（视频）](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [详情](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
-    - [ ] 实现：
-        - 二分查找（在一个已排序好的整型数组中查找）
-        - 迭代式二分查找
-
-### 3) 排序（Sorting）
-
-#### 排序基础知识
-
-- [ ] 笔记:
-    - 实现各种排序，知道每种排序的最坏、最好和平均的复杂度分别是什么场景:
-        - 不要用冒泡排序 - 效率太差 - 时间复杂度 O(n^2), 除非 n <= 16
-    - [ ] 排序算法的稳定性 ("快排是稳定的么?")
-        - [排序算法的稳定性](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
-        - [排序算法的稳定性](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
-        - [排序算法的稳定性](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
-        - [排序算法 - 稳定性](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] 哪种排序算法可以用链表？哪种用数组？哪种两者都可？
-        - 并不推荐对一个链表排序，但归并排序是可行的.
-        - [链表的归并排序](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
-
-- 关于堆排序，请查看前文堆的数据结构部分。堆排序很强大，不过是非稳定排序。
-
-#### 归并排序
-
-- [ ] [归并排序（视频）](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
-- [ ] [Sedgewick ── 归并排序（5个视频）](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] 1. 归并排序
-    - [ ] 2. 自下而上的归并排序
-    - [ ] 3. 排序复杂度
-    - [ ] 4. 比较器
-    - [ ] 5. 稳定性
-
-- [ ] 归并排序代码：
-    - [ ] [使用外部数组（C语言）](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
-    - [ ] [使用外部数组（Python语言）](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
-    - [ ] [对原数组直接排序（C++）](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
-
-
-#### 快速排序
-
-- [ ] [Sedgewick ── 快速排序（4个视频）](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] 1. 快速排序
-    - [ ] 2. 选择
-    - [ ] 3. 重复键值
-    - [ ] 4. 系统排序
-
-- [ ] [快排（视频）](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
-
-
-- [ ] 快速排序代码：
-    - [ ] [实现（C语言）](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
-    - [ ] [实现（C语言）](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
-    - [ ] [实现（Python语言）](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
-
-#### 其他排序法
-
-- [ ] [冒泡排序（视频）](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
-- [ ] [冒泡排序分析（视频）](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
-- [ ] [插入排序 & 归并排序（视频）](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-- [ ] [插入排序（视频）](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB)
-
-
-- [ ] [选择排序（视频）](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
-
-#### 排序复习视频
-
-- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
-    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
-    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
-    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
-    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
-    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
-    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
-
-#### 排序总结
-
-- [ ] 实现:
-    - [ ] 归并：平均和最差情况的时间复杂度为 O(n log n)。
-    - [ ] 快排：平均时间复杂度为 O(n log n)。
-    - 选择排序和插入排序的最坏、平均时间复杂度都是 O(n^2)。
-    - 关于堆排序，请查看前文堆的数据结构部分。
-
-总结一下，这是[15种排序算法](https://www.youtube.com/watch?v=kPRA0W1kECg)的可视化表示。如果你需要有关此主题的更多详细信息，请参阅“[一些主题的额外内容](#一些主题的额外内容)”中的“排序”部分。
-
-### 4) 动态规划 Dynamic Programming
+### 5) 动态规划 Dynamic Programming
 
 常用于解决复杂的最优化问题。
+- 在你的面试中或许没有任何动态规划的问题，但能够知道一个题目可以使用动态规划来解决是很重要的。
+- 这一部分会有点困难，每个可以用动态规划解决的问题都必须先定义出递推关系，要推导出来可能会有点棘手。
+- 我建议先阅读和学习足够多的动态规划的例子，以便对解决 DP 问题的一般模式有个扎实的理解。
 
-    - 在你的面试中或许没有任何动态规划的问题，但能够知道一个题目可以使用动态规划来解决是很重要的。
-    - 这一部分会有点困难，每个可以用动态规划解决的问题都必须先定义出递推关系，要推导出来可能会有点棘手。
-    - 我建议先阅读和学习足够多的动态规划的例子，以便对解决 DP 问题的一般模式有个扎实的理解。
-    - [ ] 视频:
-        - Skiena 的视频可能会有点难跟上，有时候他用白板写的字会比较小，难看清楚。
-        - [ ] [Skiena: CSE373 2012 - 课程 19 - 动态规划介绍（视频）](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
-        - [ ] [Skiena: CSE373 2012 - 课程 20 - 编辑距离（视频）](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
-        - [ ] [Skiena: CSE373 2012 - 课程 21 - 动态规划举例（视频）](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
-        - [ ] [Skiena: CSE373 2012 - 课程 22 - 动态规划应用（视频）](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
-        - [ ] [Simonson: 动态规划 0 (starts at 59:18)（视频）](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
-        - [ ] [Simonson: 动态规划 I - 课程 11（视频）](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [Simonson: 动态规划 II - 课程 12（视频）](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
-        - [ ] 单独的 DP 问题 (每一个视频都很短)：[动态规划（视频）](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
-    - [ ] 耶鲁课程笔记:
-        - [ ] [动态规划](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
-    - [ ] Coursera 课程:
+#### 视频:
+ - Skiena 的视频可能会有点难跟上，有时候他用白板写的字会比较小，难看清楚。
+   - [ ] [Skiena: CSE373 2012 - 课程 19 - 动态规划介绍（视频）](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
+   - [ ] [Skiena: CSE373 2012 - 课程 20 - 编辑距离（视频）](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
+   - [ ] [Skiena: CSE373 2012 - 课程 21 - 动态规划举例（视频）](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)   
+   - [ ] [Skiena: CSE373 2012 - 课程 22 - 动态规划应用（视频）](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
+   - [ ] [Simonson: 动态规划 0 (starts at 59:18)（视频）](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
+   - [ ] [Simonson: 动态规划 I - 课程 11（视频）](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+   - [ ] [Simonson: 动态规划 II - 课程 12（视频）](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
+
+ - [ ] 单独的 DP 问题 (每一个视频都很短)：[动态规划（视频）](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+ - [ ] 耶鲁课程笔记:
+   - [ ] [动态规划](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
+
+	- [ ] Coursera 课程:
         - [ ] [RNA 二级结构问题（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
         - [ ] [动态规划算法（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
         - [ ] [DP 算法描述（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)

@@ -203,24 +203,15 @@ Amazon、Facebook、Google，以及 Microsoft。
 - [ ] 字典树
 
 ### 基础算法
-
+- [ ] 算法思维
+- [ ] 搜索算法
+- [ ] 排序（Sorting）
 - [ ] 二分查找（Binary search）
-
-
-
-#### 排序（Sorting）
-
-- [ ] 排序基础知识
-- [ ] 归并排序
-- [ ] 快速排序
-- [ ] 排序复习视频
-- [ ] 排序总结
-
 
 #### 递归（Recursion）
 
 
-#### 动态规划（Dynamic Programming）
+-  动态规划（Dynamic Programming）
 
 
 

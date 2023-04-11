@@ -6,7 +6,6 @@
       {
         "id": "f8e88a85ad01974a",
         "type": "tabs",
-        "dimension": 41.84952978056427,
         "children": [
           {
             "id": "36717641452fc780",
@@ -14,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/leetcode_答题卡.md",
+                "file": "notes/02g1a3d_动态规划.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,45 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/02g1a3b_Search.md",
+                "file": "leetcode/leetcode_答题卡.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
-      },
-      {
-        "id": "54493c2b6d3201e2",
-        "type": "tabs",
-        "dimension": 58.15047021943573,
-        "children": [
-          {
-            "id": "1fe9c499ae286221",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/02g1a2_数据结构.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6af2d0faec2f818b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "leetcode/leetcode_使用技巧.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/leetcode_答题卡.md",
+                "file": "notes/02g1a3d_动态规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "leetcode/leetcode_答题卡.md",
+                "file": "notes/02g1a3d_动态规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/leetcode_答题卡.md"
+                "file": "notes/02g1a3d_动态规划.md"
               }
             }
           }
@@ -205,16 +172,30 @@
   },
   "active": "36717641452fc780",
   "lastOpenFiles": [
-    "leetcode/leetcode_刷题列表.md",
-    "leetcode/leetcode_使用技巧.md",
+    "Pasted image 20230411163529.png",
+    "notes/code/tempCodeRunnerFile.js",
+    "notes/code/fibonacci.js",
     "leetcode/leetcode_答题卡.md",
+    "notes/02g1a3d_动态规划.md",
+    "notes/02g1a3f_NP完全覆盖问题.md",
+    "notes/02g1a3g_full_permutate.md",
+    "notes/02g1a3c_排序.md",
+    "notes/02g1a3b_Search.md",
+    "notes/02g1a4_算法解题模式Patterns.md",
+    "notes/02g1a5_问题.md",
+    "README.md",
+    "notes/02g1a4d_递归.md",
+    "todo_算法.md",
+    "doc/选学内容.md",
+    "todo_计算机基础知识.md",
+    "doc/资源.md",
+    "leetcode/leetcode_使用技巧.md",
+    "leetcode/leetcode_刷题列表.md",
     "notes/02g1a3b4_广度优先搜索.md",
     "notes/02g1a5_算法解题方法.md",
     "notes/02g1a_数据结构和算法.md",
     "最短路径.md",
-    "todo_算法.md",
     "notes/02g1a2d_栈.md",
-    "notes/02g1a5_问题.md",
     "notes/02g1a3b5_二分查找.md",
     "notes/02g1a2f_字符串.md",
     "notes/02g1a2f_线性表与非线性表.md",
@@ -222,18 +203,6 @@
     "leetcode/111.js",
     "notes/code/find_m.py.9d02896b7bf685f6bd386e7a5b51ead1.tmp",
     "notes/code/find_m.py",
-    "notes/code",
-    "notes/02g1a2f_队列.md",
-    "notes/02g1a2_数据结构.md",
-    "notes/02g1a3b_Search.md",
-    "notes/02g1a5a_搜索算法题.md",
-    "notes/02g1a3b2_深度优先搜索.md",
-    "notes/02g1a3b3_回溯法.md",
-    "notes/02g1a3_算法.md",
-    "notes/02g1a3c_排序.md",
-    "notes/02g1a5b_数据结构的使用场景.md",
-    "notes/02g1a3b1_搜索.md",
-    "notes/02g1a4_算法解题模式Patterns.md",
-    "notes/02g1a3h_狄克斯特拉算法.md"
+    "notes/code"
   ]
 }
