@@ -160,7 +160,7 @@
 
 | no | title | level |state |
 | -- | -- | -- | -- |
-| [322](https://leetcode.com/problems/coin-change/) |Coin Change |难易度 | | 
+| [322](https://leetcode.com/problems/coin-change/) |Coin Change |Medium | | 
 | [509](https://leetcode.com/problems/fibonacci-number/) |Fibonacci Number |难易度 | done| 
 
 
