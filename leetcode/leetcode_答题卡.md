@@ -100,8 +100,8 @@
 |[547](https://leetcode.com/problems/number-of-provinces/)|Friend Circles |Medium |
 | [417](https://leetcode.com/problems/pacific-atlantic-water-flow/) | Pacific AtlanticWater Flow |Medium | | 
 
-
 #### backtrackin
+
 | no | title | level |state |
 | -- | -- | -- | -- |
 | [46](https://leetcode.com/problems/permutations/) | Permutations  |Medium | done| 
@@ -110,6 +110,7 @@
 | [51](https://leetcode.com/problems/n-queens/) | N-Queens  |Hard | | 
 
 #### BFS
+
 | no | title | level |state |
 | -- | -- | -- | -- |
 | [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/) |Minimum Depth of Binary Tree |easy | done| 
@@ -162,6 +163,9 @@
 | -- | -- | -- | -- |
 | [322](https://leetcode.com/problems/coin-change/) |Coin Change |Medium | | 
 | [509](https://leetcode.com/problems/fibonacci-number/) |Fibonacci Number |难易度 | done| 
+| [70](https://leetcode.com/problems/climbing-stairs/) |Climbing Stairs |Easy | done| 
+| [198](https://leetcode.com/problems/house-robber/) |house-robber |Medium | done| 
+| [413](https://leetcode.com/problems/arithmetic-slices/) | Arithmetic Slices |Medium | done|
 
 
 ## 列表模版

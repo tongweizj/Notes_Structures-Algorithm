@@ -1,36 +1,31 @@
-https://leetcode.com/problems/valid-parentheses/
+# 
+# Valid Parentheses
+# https://leetcode.com/problems/valid-parentheses/
 
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+# Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+# An input string is valid if:
 
-An input string is valid if:
+# Open brackets must be closed by the same type of brackets.
+# Open brackets must be closed in the correct order.
+# Every close bracket has a corresponding open bracket of the same type.
 
-Open brackets must be closed by the same type of brackets.
-Open brackets must be closed in the correct order.
-Every close bracket has a corresponding open bracket of the same type.
- 
+# Example 1:
+# Input: s = "()"
+# Output: true
 
-Example 1:
+# Example 2:
+# Input: s = "()[]{}"
+# Output: true
 
-Input: s = "()"
-Output: true
-Example 2:
+# Example 3:
+# Input: s = "(]"
+# Output: false
 
-Input: s = "()[]{}"
-Output: true
-Example 3:
+# Constraints:
+# 1 <= s.length <= 104
+# s consists of parentheses only '()[]{}'.
 
-Input: s = "(]"
-Output: false
- 
 
-Constraints:
-
-1 <= s.length <= 104
-s consists of parentheses only '()[]{}'.
-
-## 答案
-
-```python
 class Stack:
     def __init__(self):
         self.values = []
@@ -63,10 +58,10 @@ class Solution:
           if(perCh != ch):
             return false
 
-```
 
-```python
-class Solution:
+
+
+class Solution2:
     # @return a boolean
     def isValid(self, s):
         stack = []
@@ -80,10 +75,10 @@ class Solution:
             else:
                 return False
         return stack == []
-```
 
-```python
-class Solution:
+
+
+class Solution3:
     def isValid(self, s):
         stack = [0]
         mapping = {0: None, '(':')', '[':']', '{':'}'}
@@ -93,11 +88,10 @@ class Solution:
             else:
                 if mapping[stack.pop()] != c: return False
         return stack == [0]
-```
+
 
 
 ## 回顾
-
-1. 使用 dict
-2. 使用 if c in dict 做判断
-3. 不用写的完整的栈，可以用array
+# 1. 使用 dict
+# 2. 使用 if c in dict 做判断
+# 3. 不用写的完整的栈，可以用array

@@ -173,12 +173,21 @@
   },
   "active": "0671f4b44006bb8b",
   "lastOpenFiles": [
+    "leetcode/64.js",
+    "leetcode/413.js",
+    "doc/多伦多大中厂.md",
+    "leetcode/088.js",
+    "leetcode/079.py",
+    "leetcode/079.js",
+    "leetcode/077.js",
+    "leetcode/076.js",
+    "leetcode/046.js",
+    "leetcode/034-1.js",
+    "leetcode/034.js",
+    "leetcode/026.js",
     "notes/02g1a3d_动态规划.md",
     "leetcode/leetcode_答题卡.md",
-    "leetcode/322.js",
     "Pasted image 20230411163529.png",
-    "notes/code/tempCodeRunnerFile.js",
-    "notes/code/fibonacci.js",
     "notes/02g1a3f_NP完全覆盖问题.md",
     "notes/02g1a3g_full_permutate.md",
     "notes/02g1a3c_排序.md",
@@ -200,11 +209,6 @@
     "notes/02g1a2d_栈.md",
     "notes/02g1a3b5_二分查找.md",
     "notes/02g1a2f_字符串.md",
-    "notes/02g1a2f_线性表与非线性表.md",
-    "notes/02g1a2a_数组.md",
-    "leetcode/111.js",
-    "notes/code/find_m.py.9d02896b7bf685f6bd386e7a5b51ead1.tmp",
-    "notes/code/find_m.py",
-    "notes/code"
+    "notes/02g1a2f_线性表与非线性表.md"
   ]
 }
