@@ -6,9 +6,10 @@
       {
         "id": "f8e88a85ad01974a",
         "type": "tabs",
+        "dimension": 27.82258064516129,
         "children": [
           {
-            "id": "36717641452fc780",
+            "id": "a2b1e181c3b9c43a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,31 +21,74 @@
             }
           },
           {
-            "id": "0671f4b44006bb8b",
+            "id": "d8d3edab289cee9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/02g1a5_问题.md",
+                "file": "notes/02g1a3d2a_解题思路.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a2b1e181c3b9c43a",
+            "id": "3deb29b5a732160a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/leetcode_答题卡.md",
+                "file": "notes/02g1a3d_动态规划.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "086129951f196b68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/02g1a3d5_经典例题.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "2ff0f1aeb7dd69fb",
+        "type": "tabs",
+        "dimension": 72.17741935483872,
+        "children": [
+          {
+            "id": "3034a8a24452a1b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "leetcode/词汇表.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e07a05f9a84af337",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/02g1a3d2b_编程框架.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/02g1a5_问题.md",
+                "file": "leetcode/词汇表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/02g1a5_问题.md",
+                "file": "leetcode/词汇表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,16 +194,25 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/02g1a5_问题.md"
+                "file": "leetcode/词汇表.md"
               }
+            }
+          },
+          {
+            "id": "af4b234a5b0b9627",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,8 +224,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0671f4b44006bb8b",
+  "active": "3034a8a24452a1b5",
   "lastOpenFiles": [
+    "leetcode/300.js",
+    "notes/02g1a3d2a_解题思路.md",
+    "notes/02g1a3d2b_编程框架.md",
+    "notes/02g1a3d_动态规划.md",
+    "notes/02g1a3d5_经典例题.md",
+    "leetcode/leetcode_答题卡.md",
+    "2023-04-14.md",
+    "notes/02g1a5_问题.md",
     "leetcode/64.js",
     "leetcode/413.js",
     "doc/多伦多大中厂.md",
@@ -184,16 +245,12 @@
     "leetcode/046.js",
     "leetcode/034-1.js",
     "leetcode/034.js",
-    "leetcode/026.js",
-    "notes/02g1a3d_动态规划.md",
-    "leetcode/leetcode_答题卡.md",
     "Pasted image 20230411163529.png",
     "notes/02g1a3f_NP完全覆盖问题.md",
     "notes/02g1a3g_full_permutate.md",
     "notes/02g1a3c_排序.md",
     "notes/02g1a3b_Search.md",
     "notes/02g1a4_算法解题模式Patterns.md",
-    "notes/02g1a5_问题.md",
     "README.md",
     "notes/02g1a4d_递归.md",
     "todo_算法.md",
@@ -205,10 +262,6 @@
     "notes/02g1a3b4_广度优先搜索.md",
     "notes/02g1a5_算法解题方法.md",
     "notes/02g1a_数据结构和算法.md",
-    "最短路径.md",
-    "notes/02g1a2d_栈.md",
-    "notes/02g1a3b5_二分查找.md",
-    "notes/02g1a2f_字符串.md",
-    "notes/02g1a2f_线性表与非线性表.md"
+    "最短路径.md"
   ]
 }
