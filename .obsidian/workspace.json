@@ -4,91 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f8e88a85ad01974a",
+        "id": "85273278a0eaca9d",
         "type": "tabs",
-        "dimension": 27.82258064516129,
         "children": [
           {
-            "id": "a2b1e181c3b9c43a",
+            "id": "b9c1caa23b34315d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/02g1a3d_动态规划.md",
+                "file": "notes/02g1a2b_链表.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d8d3edab289cee9e",
+            "id": "f31ccc39a8dfe02e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/02g1a3d2a_解题思路.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3deb29b5a732160a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/02g1a3d_动态规划.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "086129951f196b68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/02g1a3d5_经典例题.md",
+                "file": "notes/02g1a2b1_代码实现.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "2ff0f1aeb7dd69fb",
-        "type": "tabs",
-        "dimension": 72.17741935483872,
-        "children": [
-          {
-            "id": "3034a8a24452a1b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "leetcode/词汇表.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e07a05f9a84af337",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/02g1a3d2b_编程框架.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/词汇表.md",
+                "file": "notes/02g1a2b1_代码实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "leetcode/词汇表.md",
+                "file": "notes/02g1a2b1_代码实现.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/词汇表.md"
+                "file": "notes/02g1a2b1_代码实现.md"
               }
             }
           },
@@ -224,27 +168,32 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3034a8a24452a1b5",
+  "active": "f31ccc39a8dfe02e",
   "lastOpenFiles": [
-    "leetcode/300.js",
+    "notes/02g1a2b_链表.md",
+    "notes/02g1a2b1_代码实现.md",
+    "notes/code/arry1.js",
+    "notes/code/linked_list.js",
+    "notes/02g1a2b1_经典问题.md",
+    "notes/code/selection_sort.js",
+    "notes/code/recursion.js",
+    "notes/code/quick_sort.js",
+    "notes/code/merge_sort.js",
+    "notes/code/map.js",
+    "notes/code/insertion_sort.js",
+    "notes/code/dfs.js",
+    "notes/code/bubble_sort.js",
+    "notes/02g1a2_数据结构.md",
+    "notes/02g1a1_复杂度.md",
+    "notes/02g1a3d_动态规划.md",
     "notes/02g1a3d2a_解题思路.md",
     "notes/02g1a3d2b_编程框架.md",
-    "notes/02g1a3d_动态规划.md",
+    "leetcode/词汇表.md",
     "notes/02g1a3d5_经典例题.md",
     "leetcode/leetcode_答题卡.md",
     "2023-04-14.md",
     "notes/02g1a5_问题.md",
-    "leetcode/64.js",
-    "leetcode/413.js",
     "doc/多伦多大中厂.md",
-    "leetcode/088.js",
-    "leetcode/079.py",
-    "leetcode/079.js",
-    "leetcode/077.js",
-    "leetcode/076.js",
-    "leetcode/046.js",
-    "leetcode/034-1.js",
-    "leetcode/034.js",
     "Pasted image 20230411163529.png",
     "notes/02g1a3f_NP完全覆盖问题.md",
     "notes/02g1a3g_full_permutate.md",
@@ -257,11 +206,6 @@
     "doc/选学内容.md",
     "todo_计算机基础知识.md",
     "doc/资源.md",
-    "leetcode/leetcode_使用技巧.md",
-    "leetcode/leetcode_刷题列表.md",
-    "notes/02g1a3b4_广度优先搜索.md",
-    "notes/02g1a5_算法解题方法.md",
-    "notes/02g1a_数据结构和算法.md",
-    "最短路径.md"
+    "leetcode/leetcode_使用技巧.md"
   ]
 }
