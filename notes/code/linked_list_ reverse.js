@@ -105,47 +105,22 @@ class LinkedList {
   }
 }
 
-let node1 = new ListNode(2);
-let node2 = new ListNode(5);
-node1.next = node2;
-
+// 反转
+function reverse(head) {
+  if (head === null || head.next === null) {
+    return head;
+  }
+  let last = reverse(head.next);
+  head.next.next = head;
+  head.next = null;
+  return last;
+}
+let node1 = new ListNode(1);
 let list = new LinkedList(node1);
-
-console.log(list.head.next.data); //returns 5
-
-console.log(list.size());
-
-console.log("遍历");
+for (let i = 2; i < 10; i++) {
+  let node = new ListNode(i);
+  list.append(node);
+}
 list.traverseList();
-
-console.log("append");
-let node3 = new ListNode(50);
-list.append(node3);
-list.traverseList();
-
-console.log("remove At index");
-list.removeAt(1);
-list.traverseList();
-
-console.log("add At index");
-let node4 = new ListNode(3);
-list.insertAt(1, node4);
-list.traverseList();
-
-// In JavaScript, a linked list looks like this:
-// const list = {
-//   head: {
-//     value: 6,
-//     next: {
-//       value: 10,
-//       next: {
-//         value: 12,
-//         next: {
-//           value: 3,
-//           next: null
-//         }
-//       }
-//     }
-//   }
-// }
-// };
+let last = reverse(list);
+last.traverseList();
