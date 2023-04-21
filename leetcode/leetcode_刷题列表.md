@@ -93,3 +93,23 @@ a. 237. Delete Node in a Linked List [https://leetcode.com/problems/delete-...](
 b. 92. Reverse Linked List II [https://leetcode.com/problems/reverse...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkZWeUZlR2VyakJaN3o5UTZtVi15NmpIdDc1d3xBQ3Jtc0trcFJMSmlwYlh2N2FCeHFxTmpXYTRNQVI2bmRqTVRCckEzMGl0VG0zZFgtLTNjamtaWnNYaGx2aVlXV3NqRE8yaFBTMkY5cWJXdEp1aUFnekR6NVZPYXpfc0EtME1MNGt6c2tPSXVyUWhBUFU3SF9raw&q=https%3A%2F%2Fleetcode.com%2Fproblems%2Freverse-linked-list-ii%2F&v=3toa_cJu49g) 
 c. 876. Middle of the Linked List [https://leetcode.com/problems/middle-...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTBCeWUtX0tuVl9Za21ZSjdtOE9PMUdwT3UtZ3xBQ3Jtc0trWVhheTdZTmlkQmVnQ0hyRkVPRkFodkdMaGhfeC1ZYm1mQVhKOVFGVnRLbnIwN1JNTVNYbEttcVpPOWRscFJwNHByLVFxcGw0Vkp0bi1wNnJOeDgtUXhkNVh6cTNqMjk4QS1hdnFwOER3ZUUtVkhyOA&q=https%3A%2F%2Fleetcode.com%2Fproblems%2Fmiddle-of-the-linked-list%2F&v=3toa_cJu49g) 
 d. 143. Reorder List [https://leetcode.com/problems/reorder...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbFBSaUIxMmxTTmFjRGdqSW1FNUk1OXRWR2lQQXxBQ3Jtc0tuMjJjRWdudTlnQVgxWFdvTFdqdWhPMjVDUGc5eDlMX2VRem9tdi1SVjRuWlhxelZPdVhZUFJfSHVPdFV0dTZpN0NzN2FrTldzcEJtOEFZbEl6TVplUTJZaDdFVmVxMFRMNnRlRVJvTUlFa0x0TjlVZw&q=https%3A%2F%2Fleetcode.com%2Fproblems%2Freorder-list%2F&v=3toa_cJu49g)
+
+  
+### 7. Pointer Manipulation 
+a. 239. Sliding Window Maximum [https://leetcode.com/problems/sliding...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa194MlhjXzk5SmhKMGpyQVhDVVdIS0pXbXlzQXxBQ3Jtc0ttNDk1QUNTQXlKS3dWdEZxV3p5aklrZ2R1SkV5SUVlXzUzMVBKYUEzNHBZQlI2dWhFZmtFTm9xRlNjS1Y4RllIWmthVWs2QkR5YllpVTZ0VXpSdWdkZW1aZUEtQjFvQkJBR3FjMXdJcFhKZjVDWkpaSQ&q=https%3A%2F%2Fleetcode.com%2Fproblems%2Fsliding-window-maximum%2F&v=8ULrqL0P0kA) 
+b. 3. Longest Substring Without Repeating Characters [https://leetcode.com/problems/longest...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazBVdUo4RHhKdnhQYTBHSFJFdDJGcHZJR0pxUXxBQ3Jtc0trdWZCUXlhUUFaVWlnekI0akoxOUxmMGsxaTBvX2d0dHcwMGRaZ0ZyQjVGdGN5azE3Nkd1RjFnNDVvX1ItSG50cUJZcXVuTHk5Wm1xa0xFaVZxSm9iLVNDNjdYZ3paZXJFUnlfVG9MOG0zVkZOTlhrRQ&q=https%3A%2F%2Fleetcode.com%2Fproblems%2Flongest-substring-without-repeating-characters%2F&v=8ULrqL0P0kA) c. 76. Minimum Window Substring [https://leetcode.com/problems/minimum...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbUNTWmd5dFNRYy1ReFBqeU5hNUZyQVFQRzZtQXxBQ3Jtc0tsajUwbVZiRmphWTdwTElsejdIMk9qekZjaGI5ZzNNTmYteW1Sc3JWc296LW1NMHNTQXpOMXAzODc0bDJrZmdsQmotNXdiSDc2N0lsQ2ZiVFMzMVBabmlMdWttdjVOTHZmamxWNGI2RHBZSEZSbUJIOA&q=https%3A%2F%2Fleetcode.com%2Fproblems%2Fminimum-window-substring%2F&v=8ULrqL0P0kA) 
+
+### 8. Sorting
+a. Time -- O(N log N) 
+b. Merge Sort -- Space O(N) 
+c. Quick Sort 
+d. 148. Sort List [https://leetcode.com/problems/sort-list/](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjRXWEtmTmdCOGYwOWtmamQ0SEZDcmdqRmdrZ3xBQ3Jtc0trRE1fYnNBcW9uM3oyTlRYTTRpbzhkaVlUdnFOSXJsVVhWNmhDNjFBX0x1TmstS2JjcFdjMWgteW1nVHl1aFJmN0xpbkppUF9TbVp0cVVWYmRQMVEwTHA3OGctNlhpVUZvY2FtbDBMQ2N5WEQ0RWZNVQ&q=https%3A%2F%2Fleetcode.com%2Fproblems%2Fsort-list%2F&v=8ULrqL0P0kA) 
+
+### 9. Convert Real Life Problem to Code 
+a. 146. LRU Cache [https://leetcode.com/problems/lru-cache/](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTlVRXVvR1l6QVNHek9IR3h5UUdfUm9NaEgzd3xBQ3Jtc0tsb3BtT2RyYS1ocHNPdGU2YWtOTHRya0xwdUFWNTNrZS14d0tuQnIxVGNpQy15bmlscmw1ai1YRDhveXkyMF84Q2lyMnpjY29RTlBVenJFbmItQ1RncXhqZVQ0VTVtdHN1Uko1aktVT2VnenZyUERLQQ&q=https%3A%2F%2Fleetcode.com%2Fproblems%2Flru-cache%2F&v=8ULrqL0P0kA) 
+b. 1066. Compus Bike [https://leetcode.com/problems/campus-...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazhkNkcwUHY2SXhvUTM1eFhmOXhWR2lDTHFYd3xBQ3Jtc0ttSDVydklzZkZEZUVFbW5xRnVqLW5RaW9tSEh1SEQ4bG1wS01JWjJnbzdyQndfeVRtbzlUdWFMUTVCN05iTnFCVXY2aTBpUThXTm5BYzlSRXB4ZWtLY0pUNVBpeDVqOFRqbjFSeTdkNU9sUUtQbnhMTQ&q=https%3A%2F%2Fleetcode.com%2Fproblems%2Fcampus-bikes%2F&v=8ULrqL0P0kA) 
+c. 490. The Maze [https://leetcode.com/problems/the-maze/](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa25SalFDYzN0M3NxWjctajQyNlVNa1dYbHZsUXxBQ3Jtc0ttUkxMb3pkVDhkbFJscGhQM1YyeVB1aDBkRVQ2TDc4dzQ4UTlyMkM2SWdXV1Z6YXprc1RXWHgxVEdoTGNuclpjS1hBTE5GSVVneGxSUEVCTWFoZmZXZmpHWXFwSW9qTmZ5a1NTaDZLbGdJc0dqckYtOA&q=https%3A%2F%2Fleetcode.com%2Fproblems%2Fthe-maze%2F&v=8ULrqL0P0kA) 
+
+### 10. Time Space Complexity 
+a. 一般面试的时候 你说完算法 就要说 这个算法的 time / space complexity是什么 
+b. 每次你做完一道题 给自己养成一个习惯 就是想一下他的时间空间复杂度是多少
