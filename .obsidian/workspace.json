@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/02g1a2b1_经典问题.md",
+                "file": "doc/多伦多大中厂.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96598928963a96c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "doc/面试官在面试coding题目时的考察终点与心理活动.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 232.5,
+    "collapsed": true
   },
   "right": {
     "id": "98636476d11c8b4d",
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/02g1a2b1_经典问题.md",
+                "file": "doc/面试官在面试coding题目时的考察终点与心理活动.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/02g1a2b1_经典问题.md",
+                "file": "doc/面试官在面试coding题目时的考察终点与心理活动.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/02g1a2b1_经典问题.md"
+                "file": "doc/面试官在面试coding题目时的考察终点与心理活动.md"
               }
             }
           },
@@ -179,12 +193,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b9c1caa23b34315d",
+  "active": "96598928963a96c8",
   "lastOpenFiles": [
+    "doc/多伦多大中厂.md",
+    "doc/面试官在面试coding题目时的考察终点与心理活动.md",
+    "notes/02g1a2b1_经典问题.md",
     "notes/code/linked_list_ reverse.js",
     "notes/code/linked_list copy.js",
     "notes/02g1a2b1_代码实现.md",
-    "notes/02g1a2b1_经典问题.md",
     "notes/02g1a2b_链表.md",
     "leetcode/leetcode_刷题列表.md",
     "leetcode/解题技巧.md",
@@ -199,7 +215,6 @@
     "notes/code/merge_sort.js",
     "notes/code/map.js",
     "notes/code/insertion_sort.js",
-    "notes/code/dfs.js",
     "notes/02g1a2_数据结构.md",
     "notes/02g1a1_复杂度.md",
     "notes/02g1a3d_动态规划.md",
@@ -209,7 +224,6 @@
     "notes/02g1a3d5_经典例题.md",
     "2023-04-14.md",
     "notes/02g1a5_问题.md",
-    "doc/多伦多大中厂.md",
     "Pasted image 20230411163529.png",
     "notes/02g1a3f_NP完全覆盖问题.md",
     "notes/02g1a3g_full_permutate.md",
