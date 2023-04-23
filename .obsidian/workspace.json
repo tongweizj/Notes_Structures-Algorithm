@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/02g1a2a_数组.md",
+                "file": "doc/面试官在面试coding题目时的考察终点与心理活动.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/02g1a2a_数组.md",
+                "file": "doc/面试官在面试coding题目时的考察终点与心理活动.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/02g1a2a_数组.md",
+                "file": "doc/面试官在面试coding题目时的考察终点与心理活动.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/02g1a2a_数组.md"
+                "file": "doc/面试官在面试coding题目时的考察终点与心理活动.md"
               }
             }
           },
@@ -169,6 +169,9 @@
   },
   "active": "f31ccc39a8dfe02e",
   "lastOpenFiles": [
+    "doc/聊聊作为面试官眼里的FB面试玄学.md",
+    "doc/多伦多大中厂.md",
+    "notes/02g1a2a_数组.md",
     "leetcode/083.js",
     "doc/面试官在面试coding题目时的考察终点与心理活动.md",
     "notes/02g1a2b1_经典问题.md",
@@ -184,7 +187,6 @@
     "notes/code/recursion.js",
     "notes/code/quick_sort.js",
     "notes/code/merge_sort.js",
-    "notes/code/map.js",
     "notes/02g1a2_数据结构.md",
     "notes/02g1a1_复杂度.md",
     "notes/02g1a3d_动态规划.md",
@@ -195,7 +197,6 @@
     "leetcode/leetcode_答题卡.md",
     "2023-04-14.md",
     "notes/02g1a5_问题.md",
-    "doc/多伦多大中厂.md",
     "Pasted image 20230411163529.png",
     "notes/02g1a3f_NP完全覆盖问题.md",
     "notes/02g1a3g_full_permutate.md",
@@ -204,7 +205,6 @@
     "notes/02g1a4_算法解题模式Patterns.md",
     "README.md",
     "notes/02g1a4d_递归.md",
-    "todo_算法.md",
-    "doc/选学内容.md"
+    "todo_算法.md"
   ]
 }
