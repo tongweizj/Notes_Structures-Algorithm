@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "d0d2e9c8475bdef1",
+    "type": "split",
+    "children": [
+      {
+        "id": "21d744418e0ea900",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2ac5510c08ac596",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "doc/面试官在面试coding题目时的考察终点与心理活动.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc27edce58693b9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法学习方法论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ea6beaa0ca13a54b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c36e0b47c0d2a23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce9f83dedf3ad726",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8d1edf846a669ae0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e1f023e27d1dec96",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "74d79609b64239a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "63c2803b8da75cd4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d80d3bd89c6b7559",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "37a98e6d564065f0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "doc/面试官在面试coding题目时的考察终点与心理活动.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1965b28988f3a64a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "doc/面试官在面试coding题目时的考察终点与心理活动.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "38844c0b49995284",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a021f289d07b87a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "doc/面试官在面试coding题目时的考察终点与心理活动.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "f2ac5510c08ac596",
+  "lastOpenFiles": [
+    "算法学习方法论.md",
+    "doc/面试官在面试coding题目时的考察终点与心理活动.md",
+    "doc/聊聊作为面试官眼里的FB面试玄学.md",
+    "todo_面试.md",
+    "todo_系统设计和架构.md",
+    "Pasted image 20230411163529.png",
+    "todo_算法.md",
+    "todo_计算机基础知识.md",
+    "leetcode/leetcode_刷题列表.md",
+    "README.md"
+  ]
+}
