@@ -2,10 +2,14 @@
 
 - 曾经微软dev35 + 10年经验.
 - 有FLG offer
-
 去年加入一个startup公司, 最近前景不明，在犹豫要不要去个稳定点的大公司。
+
 我从sde开始面试其他人到现在，估计面试过100+人次的面试和debrief。
-我面过coding problem solving design behavior。
+我面过
+- coding 
+- problem solving 
+- design 
+- behavior
 本帖子只谈论纯粹coding视情况讨论要不要再开帖子讨论其他
 
 ## 面试开始
