@@ -28,60 +28,61 @@
 
 ## 2. 数据结构
 
-### 字符串搜索和操作
+### 1) 字符串
+#### 知识点
+搜索和操作
 
 #### 字符串处理算法
-
 1. 字符串匹配
 2. 字符串哈希
 
-    - [ ] [Sedgewick──后缀数组（Suffix Arrays）（视频）](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
-    - [ ] [Sedgewick──子字符串搜寻（视频）](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. 子字符串搜寻导论](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
-        - [ ] [2. 子字符串搜寻──暴力法](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-        - [ ] [3. KMP算法](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-        - [ ] [4. Boyer-Moore算法](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-        - [ ] [5. Rabin-Karp算法](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
-    - [ ] [文本的搜索模式（视频）](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+ - [ ] [Sedgewick──后缀数组（Suffix Arrays）（视频）](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+ - [ ] [Sedgewick──子字符串搜寻（视频）](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+    - [ ] [1. 子字符串搜寻导论](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
+    - [ ] [2. 子字符串搜寻──暴力法](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
+    - [ ] [3. KMP算法](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
+    - [ ] [4. Boyer-Moore算法](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
+    - [ ] [5. Rabin-Karp算法](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
+ - [ ] [文本的搜索模式（视频）](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
 如果你需要有关此主题的更多详细信息，请参阅“[一些主题的额外内容](#一些主题的额外内容)”中的“字符串匹配”部分。
+#### 练习
 
-### 数组（Arrays）
-    - 实现一个可自动调整大小的动态数组。
-    - [ ] 介绍：
-        - [数组（视频）](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UC Berkeley CS61B - 线性数组和多维数组（视频）](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE)（从15分32秒开始）
-        - [动态数组（视频）](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [不规则数组（视频）](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] 实现一个动态数组（可自动调整大小的可变数组）：
-        - [ ] 练习使用数组和指针去编码，并且指针是通过计算去跳转而不是使用索引
-        - [ ] 通过分配内存来新建一个原生数据型数组
-            - 可以使用 int 类型的数组，但不能使用其语法特性
-            - 从大小为16或更大的数（使用2的倍数 —— 16、32、64、128）开始编写
-        - [ ] size() —— 数组元素的个数
-        - [ ] capacity() —— 可容纳元素的个数
-        - [ ] is_empty()
-        - [ ] at(index) —— 返回对应索引的元素，且若索引越界则愤然报错
-        - [ ] push(item)
-        - [ ] insert(index, item) —— 在指定索引中插入元素，并把后面的元素依次后移
-        - [ ] prepend(item) —— 可以使用上面的 insert 函数，传参 index 为 0
-        - [ ] pop() —— 删除在数组末端的元素，并返回其值
-        - [ ] delete(index) —— 删除指定索引的元素，并把后面的元素依次前移
-        - [ ] remove(item) —— 删除指定值的元素，并返回其索引（即使有多个元素）
-        - [ ] find(item) —— 寻找指定值的元素并返回其中第一个出现的元素其索引，若未找到则返回 -1
-        - [ ] resize(new_capacity) // 私有函数
-            - 若数组的大小到达其容积，则变大一倍
-            - 获取元素后，若数组大小为其容积的1/4，则缩小一半
-    - [ ] 时间复杂度
-        - 在数组末端增加/删除、定位、更新元素，只允许占 O(1) 的时间复杂度（平摊（amortized）去分配内存以获取更多空间）
-        - 在数组任何地方插入/移除元素，只允许 O(n) 的时间复杂度
-    - [ ] 空间复杂度
-        - 因为在内存中分配的空间邻近，所以有助于提高性能
-        - 空间需求 = （大于或等于 n 的数组容积）* 元素的大小。即便空间需求为 2n，其空间复杂度仍然是 O(n)
+### 2) 数组_Arrays
+
+#### 知识点
+基本知识[[02g1a2a_数组]]
+   - [数组（视频）](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+   - [UC Berkeley CS61B - 线性数组和多维数组（视频）](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE)（从15分32秒开始）
+   - [动态数组（视频）](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+   - [不规则数组（视频）](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+- 时间复杂度
 
 
+#### 练习
+实现一个动态数组，可自动调整大小的可变数组
+ - [ ] 练习使用数组和指针去编码，并且指针是通过计算去跳转而不是使用索引
+ - [ ] 通过分配内存来新建一个原生数据型数组
+    - 可以使用 int 类型的数组，但不能使用其语法特性
+    - 从大小为16或更大的数（使用2的倍数 —— 16、32、64、128）开始编写
+ - [ ] size() —— 数组元素的个数
+ - [ ] capacity() —— 可容纳元素的个数
+ - [ ] is_empty()
+ - [ ] at(index) —— 返回对应索引的元素，且若索引越界则愤然报错
+ - [ ] push(item)
+ - [ ] insert(index, item) —— 在指定索引中插入元素，并把后面的元素依次后移
+ - [ ] prepend(item) —— 可以使用上面的 insert 函数，传参 index 为 0
+ - [ ] pop() —— 删除在数组末端的元素，并返回其值
+ - [ ] delete(index) —— 删除指定索引的元素，并把后面的元素依次前移
+ - [ ] remove(item) —— 删除指定值的元素，并返回其索引（即使有多个元素）
+ - [ ] find(item) —— 寻找指定值的元素并返回其中第一个出现的元素其索引，若未找到则返回 -1
+ - [ ] resize(new_capacity) // 私有函数
+   - 若数组的大小到达其容积，则变大一倍
+   - 获取元素后，若数组大小为其容积的1/4，则缩小一半
 
-### 链表（Linked Lists）
+
+### 3) 链表_Linked Lists
+#### 知识点
     - [ ] 介绍：
         - [ ] [单向链表（视频）](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B —— 链表（一）（视频）](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
@@ -94,6 +95,11 @@
     - [ ] [为什么你需要避免使用链表（视频）](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] 的确：你需要关于“指向指针的指针”的相关知识：（因为当你传递一个指针到一个函数时，该函数可能会改变指针所指向的地址）该页只是为了让你了解“指向指针的指针”这一概念。但我并不推荐这种链式遍历的风格。因为，这种风格的代码，其可读性和可维护性太低。
         - [指向指针的指针](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+    - [ ] 双向链表
+        - [介绍（视频）](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - 并不需要实现
+
+#### 练习
     - [ ] 实现（我实现了使用尾指针以及没有使用尾指针这两种情况）：
         - [ ] size() —— 返回链表中数据元素的个数
         - [ ] empty() —— 若链表为空则返回一个布尔值 true
@@ -109,21 +115,28 @@
         - [ ] value_n_from_end(n) —— 返回倒数第 n 个节点的值
         - [ ] reverse() —— 逆序链表
         - [ ] remove_value(value) —— 删除链表中指定值的第一个元素
-    - [ ] 双向链表
-        - [介绍（视频）](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - 并不需要实现
 
-
-### 堆栈（Stack）
+### 4) 堆栈_Stack
+#### 知识点
     - [ ] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-    - [ ] 可以不实现，因为使用数组来实现并不重要
 
-### 队列（Queue）
+#### 练习
+可以不实现，因为使用数组来实现并不重要
+
+### 5) 队列_Queue
+#### 知识点
     - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
-    - [ ] 使用含有尾部指针的链表来实现:
+    - [ ] 复杂度：
+        - 在糟糕的实现情况下，使用链表所实现的队列，其入列和出列的时间复杂度将会是 O(n)。因为，你需要找到下一个元素，以致循环整个队列
+        - enqueue：O(1)（平摊（amortized）、链表和数组 [探测（probing）]）
+        - dequeue：O(1)（链表和数组）
+        - empty：O(1)（链表和数组）
+
+#### 练习
+	- [ ] 使用含有尾部指针的链表来实现:
         - enqueue(value) —— 在尾部添加值
         - dequeue() —— 删除最早添加的元素并返回其值（首部元素）
         - empty()
@@ -132,14 +145,11 @@
         - dequeue() —— 删除最早添加的元素并返回其值
         - empty()
         - full()
-    - [ ] 花销：
-        - 在糟糕的实现情况下，使用链表所实现的队列，其入列和出列的时间复杂度将会是 O(n)。因为，你需要找到下一个元素，以致循环整个队列
-        - enqueue：O(1)（平摊（amortized）、链表和数组 [探测（probing）]）
-        - dequeue：O(1)（链表和数组）
-        - empty：O(1)（链表和数组）
 
 
-### 哈希表（Hash table）
+### 6) 哈希表_Hash table
+
+#### 知识点
 - [ ] 视频：
 	- [ ] [链式哈希表（视频）](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
 	- [ ] [Table Doubling 和 Karp-Rabin（视频）](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -157,6 +167,7 @@
 		- [Dropbox 中的瞬时上传及存储优化（视频）](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
 		- [分布式哈希表（视频）](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
+#### 练习
 - [ ] 使用线性探测的数组去实现
 	- hash(k, m) —— m 是哈希表的大小
 	- add(key, value) —— 如果 key 已存在则更新值
@@ -166,25 +177,31 @@
 
 
 
-### 字典树（Tries）
+### 7) 字典树_Tries
 
-    - 需要注意的是，字典树各式各样。有些有前缀，而有些则没有。有些使用字符串而不使用比特位来追踪路径。
-    - 阅读代码，但不实现。
-    - [Sedgewick──字典树（3个视频）](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. R Way字典树](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-        - [ ] [2. 三元搜索树](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-        - [ ] [3. 基于字符串的操作](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
-    - [ ] [数据结构笔记及编程技术](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
-    - [ ] 短课程视频：
-        - [ ] [对字典树的介绍（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [字典树的性能（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [实现一棵字典树（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
-    - [ ] [字典树：一个被忽略的数据结构](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
-    - [ ] [TopCoder —— 使用字典树](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
-    - [ ] [标准教程（现实中的用例）（视频）](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
-    - [ ] [MIT，高阶数据结构，字符串（视频中间有点困难）（视频）](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+#### 知识点
+需要注意的是，字典树各式各样。
+有些有前缀，而有些则没有。
+有些使用字符串而不使用比特位来追踪路径。
 
+ - [Sedgewick──字典树（3个视频）](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+   - [ ] [1. R Way字典树](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
+   - [ ] [2. 三元搜索树](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
+   - [ ] [3. 基于字符串的操作](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
 
+- [ ] [数据结构笔记及编程技术](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
+- [ ] 短课程视频：
+   - [ ] [对字典树的介绍（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
+   - [ ] [字典树的性能（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
+   - [ ] [实现一棵字典树（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+
+- [ ] [字典树：一个被忽略的数据结构](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+ - [ ] [TopCoder —— 使用字典树](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
+ - [ ] [标准教程（现实中的用例）（视频）](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
+ - [ ] [MIT，高阶数据结构，字符串（视频中间有点困难）（视频）](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+
+#### 练习
+可以不实现
 
 ## 3. 算法
 
