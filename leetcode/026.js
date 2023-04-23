@@ -9,6 +9,7 @@
 var removeDuplicates = function (nums) {
   let k = 0;
   for (let i = 0; i < nums.length; i++) {
+    console.log("---", i, k);
     if (nums[i] != nums[k]) {
       nums[++k] = nums[i];
       console.log(nums);
@@ -17,7 +18,7 @@ var removeDuplicates = function (nums) {
   return ++k;
 };
 
-nums = [1, 2, 1, 2];
+nums = [1, 2];
 out = removeDuplicates(nums);
 console.log(out);
 
