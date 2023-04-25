@@ -152,7 +152,7 @@ newgrad一般会有两轮甚至三轮这样的题目.
 
 这类题目不过关, 很可能电面死掉或者前几轮突然死亡.
 
-solidcoding又一般可以分成两个小类：
+solid coding又一般可以分成两个小类：
 ### 1.1 考察你对算法的基本理解，以及边界条件的运用
 比如findkthlargestintegersearchinrotatearraybitmanipulation等等
 
@@ -253,17 +253,18 @@ problemre solving也可以分成四个小类型
 - 爬虫
 - 日志merge等
 - random generator等
-- 24 dynamic programming问题
+
+### 2.4 dynamic programming问题
 
 这类问题有点像solid problem resolving，主要考察你是不是有systemmatic的方法，来降低一个bruteforce程序的复杂度，这类问题一般都不是很easy的问题。
 
-根据面试官心情可能走的很深，很难，也可能最后演变成barraiser
+根据面试官心情, 可能走的很深，很难，也可能最后演变成barraiser
 
 ## 应对策略
 
 ### 2.1 主要考察你对数据结构的深层次认识。
 首先请同时确保你理解了题目的意思
-最好能问清点条件，例如immutablearraymaxsubarraysum那数组将来会变吗？
+最好能问清点条件，例如immu table array max subarray sum那数组将来会变吗？
 
 问清这类的问题，有助于你写代码前做好重构和测试的准备。
 
