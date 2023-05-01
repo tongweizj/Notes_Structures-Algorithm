@@ -188,7 +188,7 @@ Amazon、Facebook、Google，以及 Microsoft。
 
 ### 数据结构
 
-- [ ] 字符串搜索和操作
+- [ ] 字符串
 - [ ] 数组（Arrays）
 - [ ] 链表（Linked Lists
 - [ ] 堆栈（Stack）
