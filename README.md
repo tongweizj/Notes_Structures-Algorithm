@@ -53,13 +53,6 @@ Amazon、Facebook、Google，以及 Microsoft。
 
 这是我为了从 web 开发者（自学、非计算机科学学位）蜕变至 Google 软件工程师所制定的计划，其内容历时数月。
 
-![白板上编程 ———— 来自 HBO 频道的剧集，“硅谷”](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
-
-这份清单适用于 **新手软件工程师**，或者想从软件/网站开发转向软件工程（需要计算机科学知识）的人员。
-如果你有多年的经验，并且声称拥有多年的软件工程经验，并且期待一次更艰难的面试。
-
-如果你具有多年的软件/网页开发经验，请注意，大型软件公司（例如 Google，Amazon，Facebook 和 Microsoft）将软件工程视为不同于软件/网页开发，并且它们需要计算机科学知识。
-
 如果你想成为可靠性工程师或运维工程师，请从可选列表（网络，安全）中学习更多。
 
 ---
