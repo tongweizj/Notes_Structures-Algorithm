@@ -218,3 +218,70 @@
 -   Leetcode 1031 Maximum Sum of Two Non-Overlapping Subarrays
 -   Leetcode 523 Continuous Subarray Sum
 -   Leetcode 304 Range Sum Query 2D - Immutable
+
+
+
+## 算法
+### Greedy Algorithms
+
+#### Easy
+- Minimum Waiting Time
+- Class Photos
+- Tandem Bicycle
+
+
+### Recursion 递归
+
+#### Easy
+- Nth Fibonacci
+- Product Sum
+
+### 1) Searching
+
+#### Easy
+- Binary Search
+- Find Three Largest Numbers
+
+#### DFS
+| no | title | level |state |
+| -- | -- | -- | -- |
+| [695](https://leetcode.com/problems/max-area-of-island/) |Max Area of Island  |Easy | done| 
+|[547](https://leetcode.com/problems/number-of-provinces/)|Friend Circles |Medium |
+| [417](https://leetcode.com/problems/pacific-atlantic-water-flow/) | Pacific AtlanticWater Flow |Medium | | 
+
+#### backtrackin
+
+| no | title | level |state |
+| -- | -- | -- | -- |
+| [46](https://leetcode.com/problems/permutations/) | Permutations  |Medium | done| 
+| [77](https://leetcode.com/problems/combinations/) | Combinations  |Medium | done| 
+| [79](https://leetcode.com/problems/word-search/) | Word Search  |Medium | done| 
+| [51](https://leetcode.com/problems/n-queens/) | N-Queens  |Hard | | 
+
+#### BFS
+
+| no | title | level |state |
+| -- | -- | -- | -- |
+| [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/) |Minimum Depth of Binary Tree |easy | done| 
+| [934](https://leetcode.com/problems/shortest-bridge/) |Shortest Bridge |Medium | | 
+| [126](https://leetcode.com/problems/word-ladder-ii/) |Word Ladder II  |Hard | | 
+
+
+
+
+### 2) Sorting
+
+#### Easy
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+
+### 3) 动态规划
+
+| no | title | level |state |
+| -- | -- | -- | -- |
+| [322](https://leetcode.com/problems/coin-change/) |Coin Change |Medium | | 
+| [509](https://leetcode.com/problems/fibonacci-number/) |Fibonacci Number |难易度 | done| 
+| [70](https://leetcode.com/problems/climbing-stairs/) |Climbing Stairs |Easy | done| 
+| [198](https://leetcode.com/problems/house-robber/) |house-robber |Medium | done| 
+| [413](https://leetcode.com/problems/arithmetic-slices/) | Arithmetic Slices |Medium | done|
