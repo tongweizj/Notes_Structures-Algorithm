@@ -323,7 +323,7 @@ Amazon、Facebook、Google，以及 Microsoft。
 此外，一些大学的讲座视频也是我所青睐的。
 
 ## 其他资源
- - [选学内容](./doc/%E9%80%89%E5%AD%A6%E5%86%85%E5%AE%B9.md)
+ - [选学内容](选学内容.md)
  - [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
 ## LICENSE
 
