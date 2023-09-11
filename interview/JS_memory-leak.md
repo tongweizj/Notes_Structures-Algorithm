@@ -102,7 +102,8 @@ var replaceThing = function () {
     someMethod: function () {       
       console.log(someMessage);     
     }   
-  }; 
+  };
+  originlThing = null; 
 }; 
 setInterval(replaceThing, 1000);
 ```
