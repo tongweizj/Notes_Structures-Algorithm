@@ -52,6 +52,7 @@ var intervalID = setInterval(function() {
   }    
   // node、someResource 存储了大量数据 无法回收 
 }, 1000);
+[`clearInterval()`](https://developer.mozilla.org/zh-CN/docs/Web/API/clearInterval)
 ```
 `
 
