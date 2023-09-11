@@ -66,8 +66,11 @@ https://developer.mozilla.org/zh-CN/docs/Web/API/setInterval#example
 
 
 
-```
-var refA = document.getElementById('refA'); document.body.removeChild(refA); // dom删除了 console.log(refA, "refA");  // 但是还存在引用 能console出整个div 没有被回收
+```js
+var refA = document.getElementById('refA'); 
+document.body.removeChild(refA); // dom删除了 
+console.log(refA, "refA");  // 但是还存在引用 能console出整个div 没有被回收
+refA = null;//清空
 ```
 
 
