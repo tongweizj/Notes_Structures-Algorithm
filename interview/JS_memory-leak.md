@@ -44,13 +44,13 @@ function foo（arg）{
 ```js
 var someResource = getData(); 
 setInterval(function() {
-var node = document.getElementById('Node');     
-if(node) {         
-node.innerHTML = JSON.stringify(someResource));        
-// 定时器也没有清除    
-}    
-// node、someResource 存储了大量数据 无法回收 
-		 }, 1000);
+  var node = document.getElementById('Node');     
+  if(node) {         
+    node.innerHTML = JSON.stringify(someResource));        
+    // 定时器也没有清除    
+  }    
+  // node、someResource 存储了大量数据 无法回收 
+}, 1000);
 ```
 `
 
