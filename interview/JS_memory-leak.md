@@ -112,8 +112,12 @@ setInterval(replaceThing, 1000);
 
 **解决**: 去除unuserd函数或者在replaceThing函数最后一行加上 originlThing = null.
 
+## 使用 chrome memory profiling tools 来测试
   
 
 ## 资源
 
 链接：https://juejin.cn/post/6844903917986267143  
+https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/
+
+https://medium.com/sessionstack-blog/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec
