@@ -52,9 +52,11 @@ var intervalID = setInterval(function() {
   }    
   // node、someResource 存储了大量数据 无法回收 
 }, 1000);
-[`clearInterval()`](https://developer.mozilla.org/zh-CN/docs/Web/API/clearInterval)
+
+clearInterval(intervalID);
+
 ```
-`
+[`clearInterval()`](https://developer.mozilla.org/zh-CN/docs/Web/API/clearInterval)
 
 **原因**:与节点或数据关联的计时器不再需要，node 对象可以删除，整个回调函数也不需要了。可是，计时器回调函数仍然没被回收（计时器停止才会被回收）。同时，someResource 如果存储了大量的数据，也是无法被回收的。
 
