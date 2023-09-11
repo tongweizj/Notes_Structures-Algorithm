@@ -18,61 +18,64 @@ javaScript是有自己的内存回收机制，可以确定那些变量不再需�
 
 ## 常见内存泄漏场景
 
-在局部作用域中，等函数执行完毕，变量就没有存在的必要了，垃圾回收机制很快地做出判断并且回收，但是对于全局变量，很难判断什么时候不用这些变量，无法正常回收；
-所以，尽量少使用全局变量。
+### 1. 全局变量
 
-在使用闭包的时候，就会造成严重的内存泄漏，因为闭包中的局部变量，会一直保存在内存中。
+在非严格模式下当引用未声明的变量时，会在全局对象中创建一个新变量。在浏览器中，全局对象将是window，这意味着
 
-## 常见的js内存泄漏
-意外的全局变量
-在js中，一个未声明变量的使用，会在全局对象中创建一个新的变量；在浏览器环境下，全局对象就是window
-js复制代码function foo(){
-  a="test"
-}
-//上面的写法等同于
-function foo(){
-  window.a ="test"
-}
+```
+function foo（arg）{      bar =“some text”; // bar将泄漏到全局. }`
 
-js复制代码function foo(){
-  this.a="test"
-  // 函数自身发生调用，this指向全局对象window
-}
-foo()
+```
+为什么不能泄漏到全局呢,我们平时都会定义全局变量呢!!!
 
-上面的a变量应该是foo()内部作用域变量的引用，由于没有使用var来声明这个变量，这时变量a就被创建成了全局变量，这个就是错误的，会导致内存泄漏。
-解决方式： 在js文件开头添加 ‘use strict'，开启严格模式。（或者一般将使用过后的全局变量设置为 null 或者将它重新赋值，这个会涉及的缓存的问题，需要注意）
-js复制代码<script>
-"use strict"
-console.log("这是严格模式。")
-</script>
-<script>
-console.log("这是正常模式。")
-</script>
+** 原因 ** :全局变量是根据定义无法被垃圾回收机制收集.需要特别注意用于临时存储和处理大量信息的全局变量。如果必须使用全局变量来存储数据，请确保将其指定为null或在完成后重新分配它。 ** 解决办法 **: 严格模式
 
-计时器和回调函数timers
-定时器setInterval或者setTimeout在不需要使用的时候，没有被clear，导致定时器的回调函数及其内部依赖的变量都不能被回收，这就会造成内存泄漏。
-解决方式：当不需要interval或者timeout的时候，调用clearInterval或者clearTimeout
-DOM泄漏
-1.给DOM对象添加的属性是一个对象的引用
-js复制代码var a = {}
-document.getElementById('id').diyProp = a
+#### 2. 被遗忘的定时器和回调函数
 
-解决方法：在window.onload时间中加上 document.getElementById('id').diyProp = null;
-2.元素引用没有清理
-js复制代码var a = document.getElementById('id');
-document.body.removeChild(a);
-// 不能回收，因为存在变量a对它的引用。虽然我们用removeChild移除了但是还在对象里保存着#的引用，即DOM元素还在内存里面。
+crmsh
 
-解决方法： a = null
-3.事件的绑定没有移除
-解决方法： 移除时间的监听
-js闭包
-闭包在IE6下会造成内存泄漏，但是现在已经无须考虑了。值得注意的是闭包本身不会造成内存泄漏，但闭包过多很容易导致内存泄漏。闭包会造成对象引用的生命周期脱离当前函数的上下文，如果闭包如果使用不当，可以导致环形引用（circular reference），类似于死锁，只能避免，无法发生之后解决，即使有垃圾回收也还是会内存泄露。
-console
-控制台日志记录对总体内存内置文件的影响，也是个重大的问题，同时也是容易被忽略的。记录错误的对象，可以将大量的数据保留在内存中。传递给console.log的对象是不能被垃圾回收，所以没有去掉console.log可能会存在内存泄漏
+复制代码
 
-作者：来世做春风
-链接：https://juejin.cn/post/7062184102933315621
-来源：稀土掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+`var someResource = getData(); setInterval(function() {     var node = document.getElementById('Node');     if(node) {         node.innerHTML = JSON.stringify(someResource));         // 定时器也没有清除     }     // node、someResource 存储了大量数据 无法回收 }, 1000);`
+
+**原因**:与节点或数据关联的计时器不再需要，node 对象可以删除，整个回调函数也不需要了。可是，计时器回调函数仍然没被回收（计时器停止才会被回收）。同时，someResource 如果存储了大量的数据，也是无法被回收的。
+
+**解决方法**： 在定时器完成工作的时候，手动清除定时器
+
+#### 3. DOM引用
+
+javascript
+
+复制代码
+
+`var refA = document.getElementById('refA'); document.body.removeChild(refA); // dom删除了 console.log(refA, "refA");  // 但是还存在引用 能console出整个div 没有被回收`
+
+**原因**: 保留了DOM节点的引用,导致GC没有回收
+
+**解决办法**：refA = null;
+
+**注意**: 此外还要考虑 DOM 树内部或子节点的引用问题。假如你的 JavaScript 代码中保存了表格某一个 <td> 的引用。将来决定删除整个表格的时候，直觉认为 GC 会回收除了已保存的 <td> 以外的其它节点。实际情况并非如此：此 <td> 是表格的子节点，子元素与父元素是引用关系。由于代码保留了 <td> 的引用，导致整个表格仍待在内存中。保存 DOM 元素引用的时候，要小心谨慎。
+
+#### 4. 闭包
+
+注意
+
+注意
+
+注意: 闭包本身没有错,不会引起内存泄漏.而是使用错误导致.
+
+arcade
+
+复制代码
+
+`var theThing = null; var replaceThing = function () {   var originalThing = theThing;   var unused = function () {     if (originalThing)       console.log("hi");   };   theThing = {     longStr: new Array(1000000).join('*'),     someMethod: function () {       console.log(someMessage);     }   }; }; setInterval(replaceThing, 1000);`
+
+这是一段糟糕的代码,每次调用 replaceThing ，theThing 得到一个包含一个大数组和一个新闭包（someMethod）的新对象。同时，变量 unused 是一个引用 originalThing 的闭包（先前的 replaceThing 又调用了theThing）。思绪混乱了吗？最重要的事情是，闭包的作用域一旦创建，它们有同样的父级作用域，作用域是共享的。someMethod 可以通过 theThing 使用，someMethod 与 unused 分享闭包作用域，尽管 unused 从未使用，它引用的 originalThing 迫使它保留在内存中（防止被回收）。当这段代码反复运行，就会看到内存占用不断上升，垃圾回收器（GC）并无法降低内存占用。本质上，闭包的链表已经创建，每一个闭包作用域携带一个指向大数组的间接的引用，造成严重的内存泄漏。
+
+**解决**: 去除unuserd函数或者在replaceThing函数最后一行加上 originlThing = null.
+
+  
+
+## 资源
+
+链接：https://juejin.cn/post/6844903917986267143  
