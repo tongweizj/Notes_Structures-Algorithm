@@ -39,11 +39,20 @@ function foo（arg）{
 
 ### 2. 被遗忘的定时器和回调函数
 
-crmsh
 
-复制代码
 
-`var someResource = getData(); setInterval(function() {     var node = document.getElementById('Node');     if(node) {         node.innerHTML = JSON.stringify(someResource));         // 定时器也没有清除     }     // node、someResource 存储了大量数据 无法回收 }, 1000);`
+```js
+var someResource = getData(); 
+setInterval(function() {
+var node = document.getElementById('Node');     
+if(node) {         
+node.innerHTML = JSON.stringify(someResource));        
+// 定时器也没有清除    
+}    
+// node、someResource 存储了大量数据 无法回收 
+		 }, 1000);
+```
+`
 
 **原因**:与节点或数据关联的计时器不再需要，node 对象可以删除，整个回调函数也不需要了。可是，计时器回调函数仍然没被回收（计时器停止才会被回收）。同时，someResource 如果存储了大量的数据，也是无法被回收的。
 
