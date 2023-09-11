@@ -43,7 +43,8 @@ function foo（arg）{
 
 ```js
 var someResource = getData(); 
-setInterval(function() {
+
+var intervalID = setInterval(function() {
   var node = document.getElementById('Node');     
   if(node) {         
     node.innerHTML = JSON.stringify(someResource));        
