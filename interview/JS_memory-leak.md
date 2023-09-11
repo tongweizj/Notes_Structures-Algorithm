@@ -39,8 +39,6 @@ function foo（arg）{
 
 ### 2. 被遗忘的定时器和回调函数
 
-
-
 ```js
 var someResource = getData(); 
 
@@ -53,22 +51,25 @@ var intervalID = setInterval(function() {
   // node、someResource 存储了大量数据 无法回收 
 }, 1000);
 
-clearInterval(intervalID);
+clearInterval(intervalID); // 手动清除
 
 ```
-[`clearInterval()`](https://developer.mozilla.org/zh-CN/docs/Web/API/clearInterval)
 
 **原因**:与节点或数据关联的计时器不再需要，node 对象可以删除，整个回调函数也不需要了。可是，计时器回调函数仍然没被回收（计时器停止才会被回收）。同时，someResource 如果存储了大量的数据，也是无法被回收的。
 
 **解决方法**： 在定时器完成工作的时候，手动清除定时器
 
+https://developer.mozilla.org/zh-CN/docs/Web/API/setInterval#example
+[`clearInterval()`](https://developer.mozilla.org/zh-CN/docs/Web/API/clearInterval)
+
 #### 3. DOM引用
 
-javascript
 
-复制代码
 
-`var refA = document.getElementById('refA'); document.body.removeChild(refA); // dom删除了 console.log(refA, "refA");  // 但是还存在引用 能console出整个div 没有被回收`
+```
+var refA = document.getElementById('refA'); document.body.removeChild(refA); // dom删除了 console.log(refA, "refA");  // 但是还存在引用 能console出整个div 没有被回收
+```
+
 
 **原因**: 保留了DOM节点的引用,导致GC没有回收
 
