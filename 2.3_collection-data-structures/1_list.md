@@ -6,3 +6,4 @@
 ## 类型
 
 array list
+linked list
