@@ -1,7 +1,7 @@
 ## 特性
 
-无序 unordered
-唯一性 unique elements
+- 无序 unordered
+- 唯一性 unique elements
 
 ## Tip
 
