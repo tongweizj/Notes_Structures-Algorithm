@@ -13,3 +13,5 @@ linked list
 ### array list
 
 有初始大小
+
+### linked list
