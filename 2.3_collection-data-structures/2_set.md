@@ -1,6 +1,7 @@
 ## 特性
 
-wu x
+无序 unordered
+唯一性 unique elements
 
 ## Tip
 
