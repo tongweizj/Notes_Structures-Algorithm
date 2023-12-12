@@ -2,7 +2,7 @@
 
 - 无序 unordered
 - 唯一性 unique elements
-
+- 搜索非常快, 时间复杂度 O(1)
 ## Tip
 
 ### Array to Set
