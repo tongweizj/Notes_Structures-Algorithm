@@ -1,6 +1,6 @@
 基础数据结构，重点讲了
-- [trings
-- Integers
+- [Strings](./2b1a_Strings)
+- [Integers](./2b1b_integers)
 - Booleans
-- Arrays
+- [Arrays](./2b1d_Arrays)
 - Objects
