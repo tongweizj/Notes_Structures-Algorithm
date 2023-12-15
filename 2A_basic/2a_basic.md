@@ -30,3 +30,5 @@ linear and nonlinear.
 线性结构，包含特殊性
 1. 元素的索引。 index
 2. array.length
+
+### 非线性结构 
