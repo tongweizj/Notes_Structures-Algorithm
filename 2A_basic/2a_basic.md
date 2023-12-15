@@ -8,3 +8,17 @@
 ## 数据结构类型
 
 两个主要分支：线性和非线性。
+linear and nonlinear.
+
+- Linear data structure
+  - Static data structure
+    - Array
+  - Dynamic data structure
+    - Queue
+    - Stack
+    - Linked list
+
+- Non-linear data structure
+  - Tree
+  - Graph
+
