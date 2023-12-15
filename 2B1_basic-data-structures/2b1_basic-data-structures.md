@@ -1,5 +1,5 @@
 基础数据结构，重点讲了
-- Strings
+- [trings
 - Integers
 - Booleans
 - Arrays
