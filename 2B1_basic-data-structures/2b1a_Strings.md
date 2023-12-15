@@ -12,6 +12,13 @@
 ### 内存 
 A character will occupy one byte of memory.
 
+1 byte
+- 数字 123
+- 英文字母 abc
+- 符号  = + -
+
+2byte
+- 一个汉字
 
 
 ## 搜索和操作
