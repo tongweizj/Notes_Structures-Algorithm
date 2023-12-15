@@ -31,4 +31,10 @@ linear and nonlinear.
 1. 元素的索引。 index
 2. array.length
 
-### 非线性结构 
+### 非线性结构
+
+缺点
+遍历不方便
+
+优点
+树，在排序方面有特长
